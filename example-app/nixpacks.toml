@@ -1,0 +1,4 @@
+# nixpacks.toml
+
+[phases.build]
+cmds = ["npm run build", "php artisan config:clear"]
