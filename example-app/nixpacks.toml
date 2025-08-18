@@ -2,9 +2,7 @@
 
 # Define the language providers (tools) to install in the environment
 [providers]
-php = "8.2"
-nodejs = "18"
-composer = "2"
+providers = ["php", "nodejs", "composer"]
 
 # Define the phases of the build process
 [phases.install]
