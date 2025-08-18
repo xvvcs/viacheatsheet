@@ -1,6 +1,8 @@
 <x-inside-layout :sections="[
     ['id' => 'goin', 'label' => 'Goin\''],
-    ['id' => 'fb', 'label' => 'Facebook groups']
+    ['id' => 'fb', 'label' => 'Facebook groups'],
+    ['id' => 'night', 'label' => 'Nightlife'],
+    ['id' => 'clubs', 'label' => 'Clubs']
 ]">
     <x-slot:heading>Social</x-slot:heading>
 
@@ -55,5 +57,58 @@
         </li>
     </ul>
 
+    <div class="bg-white rounded-2xl shadow p-6 mb-10 dark:bg-neutral-100" id="night">
+        <h2 class="text-2xl font-bold mb-3 text-neutral-800 dark:text-neutral-900">Nightlife</h2>
+        <p class="text-gray-600 dark:text-neutral-700 leading-relaxed">You up for some fun? <a href="https://maps.app.goo.gl/EAvE9bzDi7xt4MgRA" class="font-medium text-blue-600 underline dark:text-blue-500 dark:hover:text-blue-600 hover:text-blue-700 hover:no-underline">Graven street</a> is what it's all about.</p>
+        <p class="text-gray-600 dark:text-neutral-700 leading-relaxed">Graven street is packed with bars and clubs where students and locals hang out, grab drinks, and party late into the night. If you want to meet new people or just have a good time, this is the place to go.</p>
+        <p class="text-gray-600 dark:text-neutral-700 leading-relaxed">"All right, so, one street and that's it?" Hold your horses cowboy, I'ma show you the sauce:</p>
+    </div>
+
+    <div class="mt-8">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- Club 1 -->
+            <div class="flex flex-col items-center">
+                <img src="https://impro.usercontent.one/appid/oneComWsb/domain/jagt.bar/media/jagt.bar/onewebmedia/25352290_1204599622973764_6187841545328537817_o___serialized1.jpg?etag=W%2F%2218e485-618c2e4e%22&sourceContentType=image%2Fjpeg&quality=85" alt="Jagtbar" class="rounded-xl shadow w-full max-w-1/2 mb-3">
+                <h3 class="text-xl font-semibold text-neutral-800 dark:text-neutral-900">Jagtbar</h3>
+                <p class="text-gray-500 dark:text-neutral-700 text-center text-lg mb-1">Nørregade 7, 8700 Horsens</p>
+                <p class="text-gray-600 dark:text-neutral-700 leading-relaxed "><a href="https://maps.app.goo.gl/uG2vKqdtndjFr7qm6" class="font-medium text-blue-600 underline dark:text-blue-500 dark:hover:text-blue-600 hover:text-blue-700 hover:no-underline">Google Maps</a> | <a href="https://www.instagram.com/jagtbar_horsens/" class="font-medium text-blue-600 underline dark:text-blue-500 dark:hover:text-blue-600 hover:text-blue-700 hover:no-underline">Instagram</a></p>
+            </div>
+            <!-- Club 2 -->
+            <div class="flex flex-col items-center">
+                <img src="https://images.jfmedier.dk/images/9/99/998/99882144-efba-4ba5-8f71-36854e079ecf_1_90_0_0_6000_4000_1440_960_b9097288.jpg" alt="Zwei Grosse Bier Bar" class="rounded-xl shadow w-full max-w-1/2 mb-3">
+                <h3 class="text-xl font-semibold text-neutral-800 dark:text-neutral-900">Zwei Grosse Bier Bar</h3>
+                <p class="text-gray-500 dark:text-neutral-700 text-center text-lg mb-1">Graven 21, 8700 Horsens</p>
+                <p class="text-gray-600 dark:text-neutral-700 leading-relaxed "><a href="https://maps.app.goo.gl/Diap1cSGqmqz4Br68" class="font-medium text-blue-600 underline dark:text-blue-500 dark:hover:text-blue-600 hover:text-blue-700 hover:no-underline">Google Maps</a></p>
+            </div>
+            <!-- Club 3 -->
+            <div class="flex flex-col items-center">
+                <img src="https://instagram.fcph3-1.fna.fbcdn.net/v/t39.30808-6/533028433_1531524578260004_1141193523960534375_n.jpg?stp=dst-jpg_e35_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQuaW1hZ2VfdXJsZ2VuLjIwNDh4MTM2NS5zZHIuZjMwODA4LmRlZmF1bHRfaW1hZ2UuYzIifQ&_nc_ht=instagram.fcph3-1.fna.fbcdn.net&_nc_cat=108&_nc_oc=Q6cZ2QFH4jwccKwcufCKTsbjsrR6U6ruW0WgfKO58xCXJKUQ3SUCa8qrBiYWSr1DhfkhcyU&_nc_ohc=duxA5paEqTwQ7kNvwGjSCW6&_nc_gid=k9PGQ-KhOWTzVMUif9SYCQ&edm=AP4sbd4AAAAA&ccb=7-5&ig_cache_key=MzcwMDQ5MDQ2Mzc4MzIwMzg1Nw%3D%3D.3-ccb7-5&oh=00_AfWI03k1rLQ_fkAzt5jZwXu64aOvSOkTz7f6o9zCm54JiQ&oe=68A9659D&_nc_sid=7a9f4b" alt="Jagtbar" class="rounded-xl shadow w-full max-w-1/2 mb-3">
+                <h3 class="text-xl font-semibold text-neutral-800 dark:text-neutral-900">Sölibat Natklub</h3>
+                <p class="text-gray-500 dark:text-neutral-700 text-center text-lg mb-1">Rædersgade 5, 8700 Horsens</p>
+                <p class="text-gray-600 dark:text-neutral-700 leading-relaxed "><a href="https://maps.app.goo.gl/GoQ55zSdiuFT6CQ69" class="font-medium text-blue-600 underline dark:text-blue-500 dark:hover:text-blue-600 hover:text-blue-700 hover:no-underline">Google Maps</a> | <a href="https://www.instagram.com/solibatnatklub/" class="font-medium text-blue-600 underline dark:text-blue-500 dark:hover:text-blue-600 hover:text-blue-700 hover:no-underline">Instagram</a></p>
+            </div>
+            <!-- Club 4 -->
+            <div class="flex flex-col items-center">
+                <img src="https://scontent.fcph2-1.fna.fbcdn.net/v/t39.30808-6/483102780_663969076109634_793457708211679003_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_ohc=H_BZj6EnTI4Q7kNvwGGOUC2&_nc_oc=AdkQKrkct6LWKcJ1JQ-C9mgAUjUSo1zGaoeh9A74QCrmClwxiLcV0zFTMPTc3sWJJgY&_nc_zt=23&_nc_ht=scontent.fcph2-1.fna&_nc_gid=Rs_YvW_G5cV0wCyrWplyww&oh=00_AfVVQcc9bHffUOB6F0uBz_l7I85BK2p-yxG1nIv7_2OLXg&oe=68A94DBE" alt="Stalden" class="rounded-xl shadow w-full max-w-1/2 mb-3">
+                <h3 class="text-xl font-semibold text-neutral-800 dark:text-neutral-900">Stalden</h3>
+                <p class="text-gray-500 dark:text-neutral-700 text-center text-lg mb-1">Rædersgade 3, st, 8700 Horsens</p>
+                <p class="text-gray-600 dark:text-neutral-700 leading-relaxed "><a href="https://maps.app.goo.gl/xYDGKJiA1DE6bBvz8" class="font-medium text-blue-600 underline dark:text-blue-500 dark:hover:text-blue-600 hover:text-blue-700 hover:no-underline">Google Maps</a> | <a href="https://www.instagram.com/staldenhorsens/" class="font-medium text-blue-600 underline dark:text-blue-500 dark:hover:text-blue-600 hover:text-blue-700 hover:no-underline">Instagram</a></p>
+            </div>
+            <!-- Club 5 -->
+            <div class="flex flex-col items-center">
+                <img src="https://skala.dk/application/files/1416/4182/1592/01-det-gule-pakhus-platform-k-kulturhus-containere-baeredygtig-tilbygning.jpg" alt="Platform K" class="rounded-xl shadow w-full max-w-1/2 mb-3">
+                <h3 class="text-xl font-semibold text-neutral-800 dark:text-neutral-900">Platform K</h3>
+                <p class="text-gray-500 dark:text-neutral-700 text-center text-lg mb-1">Madevej 2, 8700 Horsens</p>
+                <p class="text-gray-600 dark:text-neutral-700 leading-relaxed "><a href="https://maps.app.goo.gl/JL1SdvTaq7dbcVi18" class="font-medium text-blue-600 underline dark:text-blue-500 dark:hover:text-blue-600 hover:text-blue-700 hover:no-underline">Google Maps</a> | <a href="https://www.instagram.com/platformk.dk/" class="font-medium text-blue-600 underline dark:text-blue-500 dark:hover:text-blue-600 hover:text-blue-700 hover:no-underline">Instagram</a></p>
+            </div>
+            <!-- Club 6 -->
+            <div class="flex flex-col items-center">
+                <img src="https://kamtjatka.dk/f/thumb?src=/f/gallery/e466494efc213a36898779fda31c574842bab3cb.jpg&w=1000" alt="Kamtjatka" class="rounded-xl shadow w-full max-w-1/2 mb-3">
+                <h3 class="text-xl font-semibold text-neutral-800 dark:text-neutral-900">Kamtjatka <small>(on weekends)</small></h3>
+                <p class="text-gray-500 dark:text-neutral-700 text-center text-lg mb-1">Kamtjatka, 8700 Horsens</p>
+                <p class="text-gray-600 dark:text-neutral-700 leading-relaxed "><a href="https://maps.app.goo.gl/XdGy2SdHDQhMM9ew8" class="font-medium text-blue-600 underline dark:text-blue-500 dark:hover:text-blue-600 hover:text-blue-700 hover:no-underline">Google Maps</a> | <a href="https://www.instagram.com/studentvillagekamtjatka/" class="font-medium text-blue-600 underline dark:text-blue-500 dark:hover:text-blue-600 hover:text-blue-700 hover:no-underline">Instagram</a></p>
+            </div>
+        </div>
+    </div>
 </x-inside-layout>
 
