@@ -1,40 +1,91 @@
 <x-inside-layout :sections="[
+
+    ['id' => 'rejseplanen', 'label' => 'Rejseplanen'],
     ['id' => 'buses', 'label' => 'Buses'],
     ['id' => 'trains', 'label' => 'Trains']
 ]">
     <x-slot:heading>Commuting</x-slot:heading>
+    <!-- disclaimer -->
+        <div class="flex items-center p-4 mb-8 text-sm text-blue-400 border border-blue-300 rounded-lg bg-blue-100" role="alert">
+        <svg class="flex-shrink-0 inline w-5 h-5 mr-3 text-blue-500" fill="currentColor" viewBox="0 0 20 20">
+            <path fill-rule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l6.518 11.59c.75 1.336-.213 3.011-1.742 3.011H3.481c-1.53 0-2.492-1.675-1.742-3.011l6.518-11.59zM11 14a1 1 0 10-2 0 1 1 0 002 0zm-1-2a1 1 0 01-1-1V8a1 1 0 112 0v3a1 1 0 01-1 1z" clip-rule="evenodd"></path>
+        </svg>
+        <span class="font-medium">We recommend you getting all the apps below, as they are <b>essential</b> for your daily commute (available for both Android and App Store).</span>
+    </div>
 
-<!-- Buses -->
+    <div class="bg-white rounded-2xl shadow p-6 mb-10 dark:bg-neutral-100" id="rejseplanen">
+        <span class="w-10 h-10 bg-gray-200 rounded-full flex items-center justify-center mr-3">
+            <img src="https://play-lh.googleusercontent.com/N4haxtCO03P5VhHPGAgmxlbDKemN3a1Be-CUhfwa4du7Tgm51PRy_WWPKaqNjriGFpo=w240-h480-rw" alt="Rejseplanen App Icon">
+        </span>
+        <h2 class="text-2xl font-bold mb-3 text-neutral-800 dark:text-neutral-900">Rejseplannen</h2>
+        <p class="text-gray-600 dark:text-neutral-700 leading-relaxed">
+            <b>Rejseplanen is the most essential app for public transport in Denmark.</b> It helps you easily plan your journey from A to B by showing all available bus, train, and metro connections. You can see departure times, routes, and platform information, and get real-time updates on delays or changes. The app is available in English and is highly recommended for anyone traveling around Denmark.
+        </p>
+    </div>
+
+    <!-- Buses -->
     <div class="bg-white rounded-2xl shadow p-6 mb-10 dark:bg-neutral-100" id="buses">
         <h2 class="text-2xl font-bold mb-3 text-neutral-800 dark:text-neutral-900">Buses</h2>
-        <p class="text-gray-600 dark:text-neutral-700 leading-relaxed">If you’re an EU/EEA/Swiss or Nordic citizen – or a family member of one – you’ll need an EU residence document to show your right to live in Denmark.</p>
-        <p class="text-gray-600 dark:text-neutral-700 leading-relaxed mt-2">You can stay in Denmark for up to 3 months without it (or 6 months if you’re looking for a job). But if you plan to stay longer, make sure to apply for your residence document before that time runs out.</p>
-        <p class="text-gray-600 dark:text-neutral-700 leading-relaxed mt-2">It’s also important to know that this document is a <u class="underline">key step in getting your CPR number</u>, which you’ll need for many things in Denmark.</p>
-
-        <hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700">
-        <div class="mb-3">
-            <p class="mb-3 text-lg text-neutral-700 md:text-xl dark:text-neutral-600">Prequisities:</p>
-
-            <ul class="space-y-4 text-left text-gray-500 dark:text-gray-800 mb-4">
-                <li class="flex items-center space-x-3 rtl:space-x-reverse">
-                    <svg class="shrink-0 w-3.5 h-3.5 text-green-700 dark:text-green-700" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 12">
-                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5.917 5.724 10.5 15 1.5"/>
-                    </svg>
-                    <span>VIA Acceptance letter</span>
-                </li>
-                <li class="flex items-center space-x-3 rtl:space-x-reverse">
-                    <svg class="shrink-0 w-3.5 h-3.5 text-green-700 dark:text-green-700" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 12">
-                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5.917 5.724 10.5 15 1.5"/>
-                    </svg>
-                    <span>Passport or ID License photo</span>
-                </li>
-                <li class="flex items-center space-x-3 rtl:space-x-reverse">
-                    <svg class="shrink-0 w-3.5 h-3.5 text-green-700 dark:text-green-700" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 12">
-                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5.917 5.724 10.5 15 1.5"/>
-                    </svg>
-                    <span>Declaration of financial self-support</span>
-                </li>
+        <p class="text-gray-600 dark:text-neutral-700 leading-relaxed">
+            Horsens has a well-developed bus infrastructure, making it easy to get around the city and to nearby areas. Local and regional buses are operated by Midttrafik, with frequent routes connecting key locations such as VIA University College, the train station, and the city center. Buses are modern, reliable, and equipped for accessibility.
+        </p>
+        <p class="text-gray-600 dark:text-neutral-700 leading-relaxed mt-2 pb-4">
+            For planning your journey and buying tickets, several apps are available:
+    <!-- rejsekort -->
+    <div class="flex items-center mb-4 pt-4">
+        <span class="w-10 h-10 bg-gray-200 rounded-full flex items-center justify-center mr-3">
+            <img src="https://play-lh.googleusercontent.com/mI5HeAx4tj4ZF6m-H9RqaPmmpItfWTA5Amf1NKlvH4CYr_0D-d5zvLD0eHDVuKs3fw=w240-h480-rw" alt="Rejsekort App Icon">
+        </span>
+        <span class="text-2xl font-bold text-gray-700 dark:text-neutral-800">rejsekort</span>
+    </div>
+        <p class="font-bold pl-6 space-y-4 text-left text-gray-500 dark:text-gray-800 mb-4 text-base">
+            Rejsekort is a smart card used for travel on public transport in Denmark. It's an essential tool when traveling by bus and here's how you use it:
+            <ul class="pl-6 space-y-4 text-left text-gray-500 dark:text-gray-800 mb-4 list-decimal text-base">
+                <li>Make an account and add a payment method (credit card or MobilePay).</li>
+                <li>Whenever getting on the bus, simply swipe "Check in" on your phone and show the QR code to the driver.</li>
+                <li>When you reach your destination, remember to end your journey so you don't get charged for the entire route.</li>
             </ul>
+        </p>
+    
+    
+    <!-- Midtraffik live -->
+    <div class="flex items-center mb-4">
+        <span class="w-10 h-10 bg-gray-200 rounded-full flex items-center justify-center mr-3">
+            <img src="https://play-lh.googleusercontent.com/DSAfxTnjDWR6smLu1D_-NhH-ea8Qkj1x1Dm-drF8wxREcpu83IGpbn-V9nNDcnYXiNc" alt="Midtraffik Live App Icon">
+        </span>
+        <span class="text-2xl font-bold text-gray-700 dark:text-neutral-800">Midtraffik live</span>
+    </div>
+        <p class="font-bold pl-6 space-y-4 text-left text-gray-500 dark:text-gray-800 mb-4 text-base">
+            Midtraffik live is the official app for Midttrafik. It offers features like live tracking of buses, notifications about delays, and the ability to purchase tickets directly from your phone.
+        </p>
+    </div>
+    <!-- DSB -->
+     <!-- Buses -->
+    <div class="bg-white rounded-2xl shadow p-6 mb-10 dark:bg-neutral-100" id="trains">
+        <h2 class="text-2xl font-bold mb-3 text-neutral-800 dark:text-neutral-900">Trains</h2>
+        <p class="text-gray-600 dark:text-neutral-700 leading-relaxed">
+            Horsens is well-connected by train, making it convenient to travel both within the city and to other parts of Denmark. The main train station offers frequent regional and intercity services operated by DSB, Denmark’s national railway company. Trains are modern, comfortable, and provide easy access to destinations like Aarhus, Copenhagen, and beyond.
+        </p>
+        <p class="text-gray-600 dark:text-neutral-700 leading-relaxed mt-2 pb-4">
+            For real-time schedules, ticket purchases, and travel updates, the DSB app is highly recommended.
+        </p>
+
+        <!-- DSB app -->
+        <div class="flex items-center mb-4">
+            <span class="w-10 h-10 bg-gray-200 rounded-full flex items-center justify-center mr-3">
+                <img src="https://play-lh.googleusercontent.com/_vSX1sOpWW_EmCmKWGZYpiK852TCWW05Kc3U16cpgDvC2OqSYUhgPvsLoGt_q_6GEemp=w240-h480-rw" alt="DSB App Icon">
+            </span>
+            <span class="text-2xl font-bold text-gray-700 dark:text-neutral-800">DSB</span>
+        </div>
+            <p class="font-bold pl-6 space-y-4 text-left text-gray-500 dark:text-gray-800 mb-4 text-base">
+                DSB is the official app for Denmark's national railway company. It provides real-time information on train schedules, platform changes, and ticket purchases. Here's how you use it:
+                <ul class="pl-6 space-y-4 text-left text-gray-500 dark:text-gray-800 mb-4 list-decimal text-base">
+                    <li>Make an account on the DSB App.</li>
+                    <li>Search for your desired train route and view real-time schedules.</li>
+                    <li>Purchase tickets directly through the app for a seamless travel experience.</li>
+                    <li>On the "Your trips" section, you can view your tickets and past travel history.</li>
+                </ul>
+            </p>
         </div>
     </div>
 </x-inside-layout>
