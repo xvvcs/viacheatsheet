@@ -19,6 +19,8 @@
         <p class="text-gray-600 dark:text-neutral-700 leading-relaxed">If you’re an EU/EEA/Swiss or Nordic citizen – or a family member of one – you’ll need an EU residence document to show your right to live in Denmark.</p>
         <p class="text-gray-600 dark:text-neutral-700 leading-relaxed mt-2">You can stay in Denmark for up to 3 months without it (or 6 months if you’re looking for a job). But if you plan to stay longer, make sure to apply for your residence document before that time runs out.</p>
         <p class="text-gray-600 dark:text-neutral-700 leading-relaxed mt-2">It’s also important to know that this document is a <u class="underline">key step in getting your CPR number</u>, which you’ll need for many things in Denmark.</p>
+        <p class="text-gray-600 dark:text-neutral-700 leading-relaxed mt-2">We recommend booking an appointment <strong>as early as possible</strong>, due to busy SIRI timetables. The closest SIRI department would be in Aarhus or Odense.</p>
+
 
         <hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700">
         <div class="mb-3">
@@ -58,7 +60,7 @@
             <ul class="ps-5 mt-2 space-y-1 list-inside list-disc">
                 <li>Create a <a href="https://forms.nyidanmark.dk/siri/Task/Edit/520662" class="font-medium text-blue-600 underline dark:text-blue-500 dark:hover:text-blue-600 hover:text-blue-700 hover:no-underline"><span class="italic">ny i denmark</span> account</a></li>
                 <li>Complete the application form</li>
-                <li>Wait until the application is processed and <a href="https://forms.nyidanmark.dk/siri/Overview" class="font-medium text-blue-600 underline dark:text-blue-500 dark:hover:text-blue-600 hover:text-blue-700 hover:no-underline">you receive a response</a></li>
+                <li>Wait until the application is processed and <a href="https://forms.nyidanmark.dk/siri/Overview" class="font-medium text-blue-600 underline dark:text-blue-500 dark:hover:text-blue-600 hover:text-blue-700 hover:no-underline">you receive a response</a> (approx. 1 week of waiting)</li>
             </ul>
         </li>
         <li>
@@ -67,8 +69,8 @@
                 <li><a href="https://scandic.cleverq.de/public/locations/siri_dk/index.html?lang=en" class="font-medium text-blue-600 underline dark:text-blue-500 dark:hover:text-blue-600 hover:text-blue-700 hover:no-underline">Go to this site</a> and book an appointment in the nearest SIRI office</li>
                 <li>Choose a suitable time slot</li>
                 <li>Make sure you have the receipt of the online application and your passport or national ID card</li>
-                <li>Appear in person at the SIRI office and complete the necessary formalities</li>
-                <li>Wait for the answer from SIRI</li>
+                <li>Appear in person at the SIRI office and complete the necessary formalities (approx. 30min)</li>
+                <li>Wait for the answer from SIRI (approx. 1-2 weeks)</li>
             </ul>
         </li>
     </ul>
@@ -76,7 +78,7 @@
     <!-- CPR -->
     <div class="bg-white rounded-2xl shadow p-6 mb-10 dark:bg-neutral-100" id="cpr">
     <p class="font-bold mb-3 text-neutral-700 md:text-2xl dark:text-neutral-900">CPR (Central Person Register)</p>
-    <p class="text-gray-500 dark:text-neutral-700">All residents in Denmark need to have a CPR number. You need it to open a bank account, access your health insurance, borrow books from the library, pay tax, receive a salary and so on.</p>
+    <p class="text-gray-500 dark:text-neutral-700">All residents in Denmark need to have a CPR number. You need it to open a bank account, access your health insurance, borrow books from the library, pay tax, receive a salary and so on. Total must have.</p>
 
     <hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700">
         <div class="mb-3">
@@ -95,6 +97,12 @@
                     </svg>
                     <span>Passport or ID License</span>
                 </li>
+                <li class="flex items-center space-x-3 rtl:space-x-reverse">
+                    <svg class="shrink-0 w-3.5 h-3.5 text-green-700 dark:text-green-700" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 12">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5.917 5.724 10.5 15 1.5"/>
+                    </svg>
+                    <span>Signed accommodation contract</span>
+                </li>
             </ul>
         </div>
     </div>
@@ -106,19 +114,23 @@
             Visit your nearest Borgerservice (citizen service centre, best option) or book a CPR number application appointment at <a href="https://lifeindenmark.borger.dk/settle-in-denmark/ics-international-citizen-service" class="font-medium text-blue-600 underline dark:text-blue-500 dark:hover:text-blue-600 hover:text-blue-700 hover:no-underline">International Citizen Service Centre.</a>
         </li>
         <li>
-            <-- tu jak dalej idzie aplikacja -->
+            You can read more on <a href="https://lifeindenmark.borger.dk/settle-in-denmark/ics-international-citizen-service/ics-west-in-aarhus?frm2=micro-articles-list-f180e8a0-6f4e-47b8-aa8b-4e55284d7bb8" class="font-medium text-blue-600 underline dark:text-blue-500 dark:hover:text-blue-600 hover:text-blue-700 hover:no-underline">ICS West website.</a> Follow steps there.
             <ul class="ps-5 mt-2 space-y-1 list-inside list-disc">
-                <li></li>
-                <li></li>
-                <li></li>
             </ul>
+            <p class="text-gray-500 whitespace-normal dark:text-gray-400">As far as we remember (it may be old way), you could have booked a meeting on a <a href="https://horsens.dk/workandstudy/newtohorsens/officialmatters" class="font-medium text-blue-600 underline dark:text-blue-500 dark:hover:text-blue-600 hover:text-blue-700 hover:no-underline">Horsens Kommune</a> website and go there to get your CPR number, which would make you avoid taking a trip to Aarhus. You would need to call them and ask tho.</p>
+        </li>
+        <li>
+            The whole applying process will probably take 1-2 hours or so, therefore make sure to have all your documents ready. Then, you will receive a CPR number on the spot, which is great but <p class="font-semibold text-gray-900 underline dark:text-black decoration-red-500">you won't get your Yellow Card right away. Waiting for Yellow Card is approximately 1-3 weeks.</p>
+        </li>
+        <li>
+            Now, when you have your CPR number, you can do a lot of things, like opening a bank account, opening a MitID account, getting a phone number, etc. But remember, you still need to wait for your Yellow Card to be able to access the Danish healthcare system.
         </li>
     </ul>
 
     <!-- Tax Cards -->
     <div class="bg-white rounded-2xl shadow p-6 mb-10 dark:bg-neutral-100" id="tax">
     <p class="font-bold mb-3 text-neutral-700 md:text-2xl dark:text-neutral-900">Tax Cards</p>
-    <p class="text-gray-500 dark:text-neutral-700">In Denmark, there are 3 types of tax cards you should know about.</p>
+    <p class="text-gray-500 dark:text-neutral-700">You need them to be able to get that bread. Denmark has high taxes, but there are couple tricks you can do to get the most as a student. In Denmark, there are 3 types of tax cards you should know about.</p>
 
     <hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700">
         <div class="mb-3">
@@ -130,22 +142,49 @@
                         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5.917 5.724 10.5 15 1.5"/>
                     </svg>
                     <span>CPR</span>
+                </li>
+                <li class="flex items-center space-x-3 rtl:space-x-reverse">
+                    <svg class="shrink-0 w-3.5 h-3.5 text-green-700 dark:text-green-700" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 12">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5.917 5.724 10.5 15 1.5"/>
+                    </svg>
+                    <span>Signed accommodation contract</span>
+                </li>
+                <li class="flex items-center space-x-3 rtl:space-x-reverse">
+                    <svg class="shrink-0 w-3.5 h-3.5 text-green-700 dark:text-green-700" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 12">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5.917 5.724 10.5 15 1.5"/>
+                    </svg>
+                    <span>Yellow Card</span>
+                </li>
+                <li class="flex items-center space-x-3 rtl:space-x-reverse">
+                    <svg class="shrink-0 w-3.5 h-3.5 text-green-700 dark:text-green-700" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 12">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5.917 5.724 10.5 15 1.5"/>
+                    </svg>
+                    <span>MitID or TastSelv-kode</span>
+                </li>
             </ul>
         </div>
     </div>
 
     <h2 class="text-2xl font-bold dark:text-neutral-900">Tax <mark class="px-2 text-white bg-blue-600 rounded-sm dark:bg-blue-500">cards</mark> in a nutshell:</h2>
     <br>
-    <p class="pl-6 space-y-4 text-left text-gray-500 dark:text-gray-800 mb-4 text-base">Tax card is a generic term for primary tax card (hovedkort), secondary tax card (bikort) and tax exemption card (frikort).</p>
+    <p class="pl-6 space-y-4 text-left text-gray-500 dark:text-gray-800 mb-4 text-base">Tax card is a generic term for primary tax card (hovedkort), secondary tax card (bikort) and tax exemption card (frikort). You can read about how to get them in detail <a href="https://skat.dk/en-us/businesses/employees-and-pay/non-danish-labour/get-a-tax-card-as-a-non-danish-employee?oid=2244407&vid=0" class="font-medium text-blue-600 underline dark:text-blue-500 dark:hover:text-blue-600 hover:text-blue-700 hover:no-underline">here.</a></p>
+    <p class="pl-6 space-y-4 text-left text-gray-500 dark:text-gray-800 mb-4 text-base"><strong>We recommend you don’t apply for your tax card until 1 month before you start your job,</strong> as they simply might not manage to get it for you before you start work. With that said, once you are <i><strong>sure</strong></i> you will get it, apply right away.</p>
+    <p class="pl-6 space-y-4 text-left text-gray-500 dark:text-gray-800 mb-4 text-base">By default, you set it to receive your salary on a hovedkort(A card) and put SU on bikort(B card). We mean by default, because, usually the monthly salary is bigger than SU, which means if we want the highest income with the lowest paid in TAX,
+        <span class="font-semibold text-gray-900 underline dark:text-black decoration-indigo-500">we put the HIGH income on A card and LOWER income on B card, so the lower income gets taxed the most and high income the lowest.</span>  </p>
     <ul class="pl-6 space-y-4 text-left text-gray-500 dark:text-gray-800 mb-4 list-decimal text-base">
         <li>
             <span class=" font-bold">Primary tax card (hovedkort)</span> states both the amount you will not be taxed on (your personal allowance) and the tax rate you will have to pay.
             <ul class="ps-5 mt-2 space-y-1 list-inside list-disc">
-                <li>Your personal tax rate is calculated based on an 8% labor market tax, average municipal tax of ~25.068%, and progressive state taxes of 12.01% and 15%.</li>
+                <li>Your personal tax rate is calculated based on an 8% labor market tax, average municipal tax of ~25.068%, and progressive state taxes of 12.01% and 15%. TLDR; Approx. 27% TAX</li>
             </ul>
         </li>
         <li>
             <span class=" font-bold">Secondary tax card (bikort)</span> states your tax rate. You should only use your secondary tax card if you have more than one provider OR if you are getting the SU (Danish state educational grant).
+            <ul class="ps-5 mt-2 space-y-1 list-inside list-disc">
+                <li>
+                    B-tax is the tax you pay on B-income. B-income includes fees, remuneration, profits from self-employment, interest income, free meals and lodging, etc.
+                </li>
+            </ul>
         </li>
         <li>
             <span class=" font-bold">Tax exemption card (frikort)</span> allows you to earn a certain amount of money without paying taxes. You should only use it if you have a low income.
@@ -193,7 +232,7 @@
             </ul>
         </li>
         <li>
-            
+
             <ul class="ps-5 mt-2 space-y-1 list-inside list-disc">
                 <li></li>
                 <li></li>

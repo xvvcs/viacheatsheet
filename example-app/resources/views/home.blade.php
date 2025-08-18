@@ -40,7 +40,7 @@
         <a href="#">
             <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Accommodation tips & info</h5>
         </a>
-        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Handful piece of information on how to find a new place, what to look out for, what are the prices, all hidden hooks.</p>
+        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Handful piece of information on how to find a new place, where to apply for Accommodation support, what to look out for, what are the prices, all hidden hooks.</p>
         <a href="/accommodation" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
             Read more
             <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
@@ -52,7 +52,7 @@
         <a href="#">
             <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Commuting explained</h5>
         </a>
-        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Commuting in Denmark is pretty straightforward and well developed. All info about commuting using DSB, Midtraffiken, Resjekort, Commute card etc. </p>
+        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Commuting in Denmark is pretty straightforward and well developed. All info about having a car, using DSB, Midtraffiken, Resjekort, Commute card etc. </p>
         <a href="/commuting" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
             Read more
             <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
@@ -89,7 +89,7 @@
         <a href="#">
             <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Lifestyle</h5>
         </a>
-        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here is some information about where to play sports, find interest clubs, where to go clubbing, spend free time or places you must check out.</p>
+        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here is some information about finding your doctor and booking an appointment but also where to play sports, find interest clubs, where to go clubbing, spend free time or places you must check out.</p>
         <a href="/lifestyle" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
             Read more
             <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
