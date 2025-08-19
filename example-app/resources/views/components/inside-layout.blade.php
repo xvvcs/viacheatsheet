@@ -7,6 +7,13 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
+<button data-drawer-target="default-sidebar" data-drawer-toggle="default-sidebar" aria-controls="default-sidebar" type="button" class="inline-flex items-center p-2 text-sm text-gray-500 sm:hidden bg-gray-700 focus:outline-none focus:ring-2  dark:text-gray-400 dark:hover:bg-gray-700">
+    <span class="sr-only">Open sidebar</span>
+    <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+        <path clip-rule="evenodd" fill-rule="evenodd" d="M2 4.75A.75.75 0 012.75 4h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 4.75zm0 10.5a.75.75 0 01.75-.75h7.5a.75.75 0 010 1.5h-7.5a.75.75 0 01-.75-.75zM2 10a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 10z"></path>
+    </svg>
+</button>
+
 <aside id="default-sidebar" class="fixed top-0 left-0 z-40 w-64 h-screen transition-transform -translate-x-full sm:translate-x-0" aria-label="Sidebar">
     <div class="h-full px-3 py-4 overflow-y-auto bg-gray-50 dark:bg-gray-800">
         <ul class="space-y-2 font-medium">
@@ -62,4 +69,40 @@
 </div>
 
 </body>
+
+<script>
+    // Mobile sidebar toggle functionality
+    document.addEventListener('DOMContentLoaded', function() {
+        const toggleButton = document.querySelector('[data-drawer-toggle="default-sidebar"]');
+        const sidebar = document.querySelector('#default-sidebar');
+
+        if (toggleButton && sidebar) {
+            toggleButton.addEventListener('click', function() {
+                // Toggle the sidebar visibility
+                sidebar.classList.toggle('-translate-x-full');
+            });
+
+            // Close sidebar when clicking outside on mobile
+            document.addEventListener('click', function(event) {
+                const isClickInsideSidebar = sidebar.contains(event.target);
+                const isClickOnToggle = toggleButton.contains(event.target);
+
+                if (!isClickInsideSidebar && !isClickOnToggle && window.innerWidth < 640) {
+                    sidebar.classList.add('-translate-x-full');
+                }
+            });
+
+            // Handle window resize - ensure proper state
+            window.addEventListener('resize', function() {
+                if (window.innerWidth >= 640) {
+                    // On desktop, sidebar should be visible
+                    sidebar.classList.remove('-translate-x-full');
+                } else {
+                    // On mobile, sidebar should be hidden by default
+                    sidebar.classList.add('-translate-x-full');
+                }
+            });
+        }
+    });
+</script>
 </html>
