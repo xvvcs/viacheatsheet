@@ -123,6 +123,164 @@
         <!-- cars -->
         <div class="bg-white rounded-2xl shadow p-6 mb-10 dark:bg-neutral-100" id="cars">
         <h2 class="text-2xl font-bold mb-3 text-neutral-800 dark:text-neutral-900">Cars</h2>
-        <p class="text-gray-600 dark:text-neutral-700 leading-relaxed"></p>
+        <p class="text-gray-600 dark:text-neutral-700 leading-relaxed mb-6">You probably already heard how expensive it is to have a car in Denmark, mainly because of the taxes. Don't worry, we'll explain it as simply as possible and also share some tricks.</p>
+
+        <!-- Driving on Foreign Plates --> <hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700">
+
+            <h3 class="text-xl font-bold mb-3 text-neutral-800 dark:text-neutral-900 flex items-center">
+                1. Driving on Foreign Plates explained.
+            </h3>
+            <p class="text-gray-700 dark:text-neutral-800 leading-relaxed mb-4">
+                This is a big one for newcomers and has strict rules.
+            </p>
+
+            <div class="space-y-4">
+
+                    <h4 class="font-bold text-gray-900 underline dark:text-black decoration-indigo-500">If you are moving to Denmark:</h4>
+                    <p class="text-gray-600 dark:text-neutral-700 leading-relaxed">
+                        You have <span class="font-semibold text-gray-900 underline dark:text-black decoration-red-500">30 days</span> from the date you register for your CPR number to register your foreign car in Denmark. You can't just keep driving it on your old plates. I mean you can but if they catch you, it's going to be expensive... You need to start the import and registration process with the Danish Tax Agency (Skat) within that month.
+                    </p>
+                <p class="font-semibold pl-2 space-y-4 text-left text-gray-500 dark:text-gray-800 mb-4 text-base italic">If your car is not in Denmark all the time, but shifts from one country to another with a proof, that's a different case.</p>
+
+
+                    <h4 class="font-bold text-gray-900 underline dark:text-black decoration-indigo-500">If you are just visiting (Tourist):</h4>
+                    <p class="text-gray-600 dark:text-neutral-700 leading-relaxed">
+                        You can drive your foreign-registered car in Denmark for up to <span class="font-semibold text-gray-900 underline dark:text-black decoration-red-500">6 months</span>.
+                    </p>
+
+
+
+                    <h4 class="font-bold text-gray-900 underline dark:text-black decoration-indigo-500">If you work in Denmark but live abroad (Cross-border commuter):</h4>
+                    <p class="text-gray-600 dark:text-neutral-700 leading-relaxed">
+                        You might be able to get a permit from Skat to drive your foreign car, but you must apply for it.
+                    </p>
+        </div>
+
+        <!-- The Taxes --> <hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700">
+
+            <h3 class="text-xl font-bold mb-3 mt-8 text-neutral-800 dark:text-neutral-900 flex items-center">
+                2. The Taxes explained.
+            </h3>
+            <p class="text-gray-700 dark:text-neutral-800 leading-relaxed mb-4">
+                This is the most important part to understand. Danish car prices are inflated by one of the highest car tax rates in the world.
+            </p>
+
+            <div class="space-y-4">
+
+                    <h4 class="font-bold text-gray-900 underline dark:text-black decoration-indigo-500">1. Registration Tax (Registreringsafgift)</h4>
+                    <p class="text-gray-600 dark:text-neutral-700 leading-relaxed mb-3">
+                        This is the big one. It's a one-time tax you pay when a car is first registered in Denmark (whether it's brand new or imported). The tax is calculated based on the car's taxable value, and it's brutally high.
+                    </p>
+
+                    <div class="bg-gray-50 dark:bg-gray-100 p-3 rounded-lg mb-3">
+                        <p class="font-semibold text-gray-800 dark:text-gray-900 mb-2">How it works:</p>
+                        <ul class="list-disc list-inside space-y-1 text-gray-600 dark:text-neutral-700">
+                            <li><span class="font-semibold text-gray-900 underline dark:text-black decoration-red-500">You pay a low rate (25%)</span> on the first part of the car's value</li>
+                            <li><span class="font-semibold text-gray-900 underline dark:text-black decoration-red-500">You pay a medium rate (85%)</span> on the middle part</li>
+                            <li><span class="font-semibold text-gray-900 underline dark:text-black decoration-red-500">You pay a high rate (150%)</span> on the value above a certain threshold</li>
+                        </ul>
+                    </div>
+
+                    <p class="text-gray-600 dark:text-neutral-700 leading-relaxed mb-2">
+                        This tax can often more than double the price of the car compared to what you'd pay in a country like Germany.
+                    </p>
+
+                    <div class="bg-green-50 dark:bg-green-100 border border-green-200 p-3 rounded-lg">
+                        <p class="text-green-800 dark:text-green-900">
+                            <span class="font-bold">Good to know:</span> Electric cars get a significant tax discount, making them much more attractive and relatively cheaper than gasoline or diesel cars.
+                        </p>
+                    </div>
+
+
+
+                    <h4 class="font-bold text-gray-900 underline dark:text-black decoration-indigo-500">2. Periodic Green Tax (Grøn Ejerafgift / CO2-afgift)</h4>
+                    <p class="text-gray-600 dark:text-neutral-700 leading-relaxed mb-3">
+                        This is your car's ongoing "rent" to the government, which you pay either semi-annually or annually.
+                    </p>
+
+                    <div class="bg-gray-50 dark:bg-gray-100 p-3 rounded-lg">
+                        <p class="font-semibold text-gray-800 dark:text-gray-900 mb-2">What it's based on:</p>
+                        <ul class="list-disc list-inside space-y-1 text-gray-600 dark:text-neutral-700">
+                            <li><span class="font-bold text-gray-900 underline dark:text-black decoration-green-500">For older cars:</span> based on fuel efficiency (km per liter). The further it goes on a liter, the cheaper the tax</li>
+                            <li><span class="font-bold text-gray-900 underline dark:text-black decoration-green-300">For newer cars </span>(registered after July 2021): based directly on CO2 emissions (grams per km). The lower the emissions, the cheaper the tax</li>
+                        </ul>
+                    </div>
+                </div>
+
+
+        <!-- Car Insurance --> <hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700">
+            <h3 class="text-xl font-bold mb-3 text-neutral-800 dark:text-neutral-900 flex items-center">
+                3. Car Insurance (Forsikring) explained.
+            </h3>
+            <p class="text-gray-700 dark:text-neutral-800 leading-relaxed mb-4">
+                Insurance is mandatory, and you can't get license plates without proving you have it.
+            </p>
+
+            <div class="space-y-4">
+
+                    <h4 class="font-bold text-gray-900 underline dark:text-black decoration-indigo-500">Mandatory Liability Insurance (Ansvarsforsikring)</h4>
+                    <p class="text-gray-600 dark:text-neutral-700 leading-relaxed">
+                        This is the legal minimum. It covers any damage you might cause to other people or their property. You absolutely must have this.
+                    </p>
+
+
+
+                <h4 class="font-bold text-gray-900 underline dark:text-black decoration-indigo-500">Comprehensive Insurance (Kaskoforsikring)</h4>
+                    <p class="text-gray-600 dark:text-neutral-700 leading-relaxed">
+                        This is optional, but highly recommended, especially for newer or more valuable cars. It covers theft and damage to your own car if you get into an accident. Most people get this.
+                    </p>
+
+
+                <div class="bg-yellow-50 dark:bg-yellow-100 border border-yellow-200 p-3 rounded-lg">
+                    <p class="text-yellow-800 dark:text-yellow-900">
+                        <span class="font-bold">Cost:</span> The price varies wildly based on your age, driving experience, the car model (a fast car costs more to insure), and where you live. New and young drivers often pay a very high premium. It's always a good idea to get quotes from several different insurance companies.
+                    </p>
+                </div>
+            </div>
+
+
+        <!-- The Process --><hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700">
+
+            <h3 class="text-xl font-bold mb-3 text-neutral-800 dark:text-neutral-900">
+                The Process of Getting a Car in a nutshell
+            </h3>
+            <p class="text-gray-700 dark:text-neutral-800 leading-relaxed mb-4">
+                You have two main paths:
+            </p>
+
+            <div class="space-y-4">
+
+                <h4 class="font-bold text-gray-900 underline dark:text-black decoration-indigo-500">1. Buying a Car in Denmark</h4>
+                    <p class="text-gray-600 dark:text-neutral-700 leading-relaxed mb-3">
+                        This is the simplest way. You go to a dealer or find a used car online (on sites like bilbasen.dk or biltorvet.dk), agree on a price, handle the ownership registration digitally with your MitID, get insurance, and you're done.
+                    </p>
+
+                    <div class="bg-blue-50 dark:bg-blue-100 border border-blue-200 p-3 rounded-lg">
+                        <p class="text-blue-800 dark:text-blue-900">
+                            <span class="font-bold">Pro-tip:</span> When buying a used car, always check for outstanding debt (gæld) on the car through the official registry (Bilbogen). If you buy a car with debt, you become responsible for it!
+                        </p>
+                    </div>
+
+
+
+                <h4 class="font-bold text-gray-900 underline dark:text-black decoration-indigo-500">2. Importing a Car from Abroad</h4>
+                    <p class="text-gray-600 dark:text-neutral-700 leading-relaxed mb-3">
+                        This is more complicated but can save you money if you find a good deal abroad (even after the tax).
+                    </p>
+
+                    <div class="bg-gray-50 dark:bg-gray-100 p-3 rounded-lg">
+                        <ol class="list-decimal list-inside space-y-1 text-gray-600 dark:text-neutral-700">
+                            <li>Bring the car to Denmark</li>
+                            <li>Take it for a mandatory inspection (syn)</li>
+                            <li>Report it to the Motor Registry (Motorstyrelsen) for a valuation</li>
+                            <li>Pay the massive registration tax (registreringsafgift) based on their valuation</li>
+                            <li>Buy Danish insurance</li>
+                            <li>Get your new Danish license plates</li>
+                        </ol>
+                    </div>
+
+            </div>
     </div>
+
+
 </x-inside-layout>
