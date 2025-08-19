@@ -4,15 +4,16 @@
     ['id' => 'buses', 'label' => 'Buses'],
     ['id' => 'trains', 'label' => 'Trains'],
     ['id' => 'airport', 'label' => 'Airport'],
-    ['id' => 'commute-card', 'label' => 'Commute Card']
+    ['id' => 'commute-card', 'label' => 'Commute Card'],
+    ['id' => 'cars', 'label' => 'Cars']
 ]">
     <x-slot:heading>Commuting</x-slot:heading>
     <!-- disclaimer -->
-        <div class="flex items-center p-4 mb-8 text-sm text-blue-400 border border-blue-300 rounded-lg bg-blue-100" role="alert">
+    <div class="flex items-center p-4 mb-8 text-sm text-blue-500 border border-blue-300 rounded-lg bg-blue-100" role="alert">
         <svg class="flex-shrink-0 inline w-5 h-5 mr-3 text-blue-500" fill="currentColor" viewBox="0 0 20 20">
             <path fill-rule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l6.518 11.59c.75 1.336-.213 3.011-1.742 3.011H3.481c-1.53 0-2.492-1.675-1.742-3.011l6.518-11.59zM11 14a1 1 0 10-2 0 1 1 0 002 0zm-1-2a1 1 0 01-1-1V8a1 1 0 112 0v3a1 1 0 01-1 1z" clip-rule="evenodd"></path>
         </svg>
-        <span class="font-medium">We recommend you getting all the apps below, as they are <b>essential</b> for your daily commute (available for both Android and App Store).</span>
+        <span class="font-medium">We recommend you getting all the apps below, as they are <b>essential</b> for your daily commute (available for both Android and iOS).</span>
     </div>
 
     <div class="bg-white rounded-2xl shadow p-6 mb-10 dark:bg-neutral-100" id="rejseplanen">
@@ -34,7 +35,7 @@
         <p class="text-gray-600 dark:text-neutral-700 leading-relaxed mt-2 pb-4">
             For planning your journey and buying tickets, several apps are available:
     <!-- rejsekort -->
-    <div class="flex items-center mb-4 pt-4">
+    <div class="flex items-center mb-4">
         <span class="w-10 h-10 bg-gray-200 rounded-full flex items-center justify-center mr-3">
             <img src="https://play-lh.googleusercontent.com/mI5HeAx4tj4ZF6m-H9RqaPmmpItfWTA5Amf1NKlvH4CYr_0D-d5zvLD0eHDVuKs3fw=w240-h480-rw" alt="Rejsekort App Icon">
         </span>
@@ -48,8 +49,6 @@
                 <li>When you reach your destination, remember to end your journey so you don't get charged for the entire route.</li>
             </ul>
         <span class="font-bold pl-2 space-y-4 text-left text-gray-500 dark:text-gray-800 text-base">We can easily say its the cheapest option to commute and move around.</span> <span class="font-bold text-gray-900 underline dark:text-black decoration-red-500">The ticket costs only 14DKK.</span>
-
-
     <!-- Midtraffik live -->
     <div class="flex items-center mb-4 mt-4">
         <span class="w-10 h-10 bg-gray-200 rounded-full flex items-center justify-center mr-3">
@@ -61,8 +60,8 @@
             Midtraffik live is the official app for Midttrafik. It offers features like live tracking of buses, notifications about delays, and the ability to purchase tickets directly from your phone.
         </p>
     </div>
-    <!-- DSB -->
-     <!-- Buses -->
+
+    <!-- Trains -->
     <div class="bg-white rounded-2xl shadow p-6 mb-10 dark:bg-neutral-100" id="trains">
         <h2 class="text-2xl font-bold mb-3 text-neutral-800 dark:text-neutral-900">Trains</h2>
         <p class="text-gray-600 dark:text-neutral-700 leading-relaxed">
@@ -84,6 +83,9 @@
                 <ul class="pl-6 space-y-4 text-left text-gray-500 dark:text-gray-800 mb-4 list-decimal text-base">
                     <li>Make an account on the DSB App.</li>
                     <li>Search for your desired train route and view real-time schedules.</li>
+                    <ul class="pl-6 space-y-4 text-left text-gray-500 dark:text-gray-800 mb-4 list-disc text-base">
+                        <li>If you are in the age of 16-25, make sure you choose "Young 16-25 years" for discounted fares.</li>
+                    </ul>
                     <li>Purchase tickets directly through the app for a seamless travel experience.</li>
                     <li>On the "Your trips" section, you can view your tickets and past travel history.</li>
                 </ul>
@@ -91,7 +93,7 @@
         <span class="font-bold pl-2 space-y-4 text-left text-gray-500 dark:text-gray-800 text-base"> DSB Tip:</span> Always try to buy tickets in advance, as it can save you money. If you buy a ticket on the train, it will cost you more than if you buy it in advance through the app or at the station. The price difference can be significant, so it's worth planning ahead to get the best deal. <br>
         <span class="font-bold pl-2 space-y-4 text-left text-gray-500 dark:text-gray-800 text-base"> The ticket costs around 50-200DKK depending on the distance.</span> <span class="font-bold text-gray-900 underline dark:text-black decoration-red-500">The ticket to Copenhagen H and Copenhagen airport solds out and can get pricey fast. Don't think, buy. </span>
     </div>
-
+    <!-- airports -->
     <div class="bg-white rounded-2xl shadow p-6 mb-10 dark:bg-neutral-100" id="airport">
         <h2 class="text-2xl font-bold mb-3 text-neutral-800 dark:text-neutral-900">Airports</h2>
         <p class="font-bold pl-2 space-y-4 text-left text-gray-500 dark:text-gray-800 mb-4 text-base"> There are 3 main airports close to us:</p>
@@ -105,7 +107,7 @@
         <p class="text-gray-600 dark:text-neutral-700 leading-relaxed">To get to the airport, you can use the DSB train service from Horsens to Copenhagen Central Station (København H), and then transfer to the Metro or another train that goes directly to the airport. The journey takes about 2.5 to 3 hours, depending on connections.</p>
         <p class="text-gray-600 dark:text-neutral-700 leading-relaxed"> In case of wanting to use Billund Airport, you can take a train from Horsens to Vejle, and then Bus to Billund which takes about 1 hour. The bus service is operated by Midttrafik and offers a convenient way to reach the airport.</p>
     </div>
-
+    <!-- commute cards -->
     <div class="bg-white rounded-2xl shadow p-6 mb-10 dark:bg-neutral-100" id="commute-card">
         <h2 class="text-2xl font-bold mb-3 text-neutral-800 dark:text-neutral-900">Commute Card</h2>
         <p class="text-gray-600 dark:text-neutral-700 leading-relaxed">
@@ -117,5 +119,10 @@
 
         <p class="font-bold pl-2 space-y-4 text-left text-gray-500 dark:text-gray-800 mb-4 text-base"> As for interns...
         <p class="text-gray-600 dark:text-neutral-700 leading-relaxed mt-2 pb-4"> you can get a <b>student commute card</b> which is cheaper than the regular one. It costs <b>around 500DKK per month </b> allows unlimited travel within your selected zones. You can let your employer know, and they will help you with the process of getting it. Then, the government will cover the expenses.</p>
+    </div>
+        <!-- cars -->
+        <div class="bg-white rounded-2xl shadow p-6 mb-10 dark:bg-neutral-100" id="cars">
+        <h2 class="text-2xl font-bold mb-3 text-neutral-800 dark:text-neutral-900">Cars</h2>
+        <p class="text-gray-600 dark:text-neutral-700 leading-relaxed"></p>
     </div>
 </x-inside-layout>
