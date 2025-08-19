@@ -16,7 +16,7 @@
 </header>
 
 <main class="flex-grow">
-    <div class="grid grid-cols-4 gap-7 max-w-8xl px-5 py-6 sm:px-6 lg:px-8">
+    <div class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-7 max-w-8xl px-5 py-6 sm:px-6 lg:px-8">
         {{$slot}}
     </div>
 </main>
