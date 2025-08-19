@@ -3,6 +3,9 @@
     ['id' => 'cpr', 'label' => 'CPR'],
     ['id' => 'tax', 'label' => 'Tax Cards'],
     ['id' => 'su', 'label' => 'SU'],
+    ['id' => 'health', 'label' => 'Yellow Card'],
+    ['id' => 'student', 'label' => 'Student Card'],
+
 ]">
     <x-slot:heading>Documents cheatsheet</x-slot:heading>
 
@@ -286,5 +289,181 @@
     </ul>
 
     <p class="text-gray-500 dark:text-neutral-700">We recommend you apply for SU <span class="font-semibold text-gray-900 underline dark:text-black decoration-indigo-500">right after you get the employment contract.</span> It is due to long waiting times to get a response <strong>  (approx 2-4 weeks)</strong> and I assume we want to get the SU ASAP.</p>
+
+
+    <div class="bg-white rounded-2xl shadow p-6 mb-10 mt-4 dark:bg-neutral-100" id="health">
+        <p class="font-bold mb-3 text-neutral-700 md:text-2xl dark:text-neutral-900">Yellow Card (Health Insurance Card)</p>
+        <p class="text-gray-500 dark:text-neutral-700">The Yellow Card is your health insurance card in Denmark. It proves that you are entitled to healthcare services in the country.</p> <span class="font-semibold text-gray-900 underline dark:text-black decoration-indigo-500"> Wait time for it is about 1-3 weeks (since getting a CPR number).</span>
+
+        <hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700">
+        <div class="mb-3">
+            <p class="mb-3 text-lg text-neutral-700 md:text-xl dark:text-neutral-600">Prequisities:</p>
+
+            <ul class="space-y-4 text-left text-gray-500 dark:text-gray-800 mb-4">
+                <li class="flex items center space-x-3 rtl:space-x-reverse">
+                    <svg class="shrink-0 w-3.5 h-3.5 text-green-700 dark:text-green-700" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 12">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5.917 5.724 10.5 15 1.5"/>
+                    </svg>
+                    <span>CPR</span>
+                </li>
+                <li class="flex items center space-x-3 rtl:space-x-reverse">
+                    <svg class="shrink-0 w-3.5 h-3.5 text-green-700 dark:text-green-700" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 12">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5.917 5.724 10.5 15 1.5"/>
+                    </svg>
+                    <span>MitID (If you want to have Sundhedskortet app)</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+        <h2 class="text-2xl font-bold dark:text-neutral-900"><mark class="px-2 text-white bg-blue-600 rounded-sm dark:bg-blue-500">How</mark> to use it?</h2>
+        <br>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-10">
+        <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
+            <a href="#">
+                <img class="rounded-t-lg m-2" src="https://bienvenidoacopenhague.com/wp-content/uploads/2020/05/1570185764.jpg" alt="yellow-card" />
+            </a>
+            <div class="p-5">
+                <a href="https://lifeindenmark.borger.dk/healthcare/health-insurance/health-insurance-card">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">It is quite simple...</h5>
+                </a>
+                <p class="mb-3 font-bold text-gray-700 dark:text-gray-400">It contains information on:</p>
+                <ul class="space-y-2 text-gray-500 dark:text-gray-400">
+                    <li class="flex items center space-x-3 rtl:space-x-reverse">
+                        <svg class="shrink-0 w-3.5 h-3.5 text-green-700 dark:text-green-700" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 12">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5.917 5.724 10.5 15 1.5"/>
+                        </svg>
+                        <span>Your name</span>
+                    </li>
+                    <li class="flex items center space-x-3 rtl:space-x-reverse">
+                        <svg class="shrink-0 w-3.5 h-3.5 text-green-700 dark:text-green-700" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 12">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5.917 5.724 10.5 15 1.5"/>
+                        </svg>
+                        <span>Your CPR number</span>
+                    </li>
+                    <li class="flex items center space-x-3 rtl:space-x-reverse">
+                        <svg class="shrink-0 w-3.5 h-3.5 text-green-700 dark:text-green-700" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 12">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5.917 5.724 10.5 15 1.5"/>
+                        </svg>
+                        <span>Your health insurance provider</span>
+                    </li>
+                    <li class="flex items center space-x-3 rtl:space-x-reverse">
+                        <svg class="shrink-0 w-3.5 h-3.5 text-green-700 dark:text-green-700" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 12">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5.917 5.724 10.5 15 1.5"/>
+                        </svg>
+                        <span>Validity period</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+                <ul class="space-y-4 text-left text-gray-500 dark:text-gray-800 mb-4">
+                    <li class="flex items-center space-x-3 rtl:space-x-reverse">
+                        <svg class="shrink-0 w-3.5 h-3.5 text-green-700 dark:text-green-700" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 12">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5.917 5.724 10.5 15 1.5"/>
+                        </svg>
+                        <span><strong>At the Doctor's Office:</strong> This is its main job. When you walk into your doctor's clinic, there's a little scanner at the reception desk. You just slide your card through it to check in for your appointment.</span>
+                    </li>
+                    <li class="flex items-center space-x-3 rtl:space-x-reverse">
+                        <svg class="shrink-0 w-3.5 h-3.5 text-green-700 dark:text-green-700" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 12">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5.917 5.724 10.5 15 1.5"/>
+                        </svg>
+                        <span><strong>At the Pharmacy (Apotek):</strong> When you need to pick up prescription medicine, you just hand over your yellow card. They scan it, and your doctor's prescription pops up on their computer.</span>
+                    </li>
+                    <li class="flex items-center space-x-3 rtl:space-x-reverse">
+                        <svg class="shrink-0 w-3.5 h-3.5 text-green-700 dark:text-green-700" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 12">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5.917 5.724 10.5 15 1.5"/>
+                        </svg>
+                        <span><strong>At the Library (Bibliotek):</strong> It's a cool life hack – your yellow card is often your library card as well. Just take it to your local library, and they can activate it in their system.</span>
+                    </li>
+                    <li class="flex items-center space-x-3 rtl:space-x-reverse pb-4">
+                        <svg class="shrink-0 w-3.5 h-3.5 text-green-700 dark:text-green-700" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 12">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5.917 5.724 10.5 15 1.5"/>
+                        </svg>
+                        <span><strong>At the Hospital or Specialist:</strong> If you have a hospital appointment or need to see a specialist, you'll always need to bring it to register.</span>
+                    </li>
+
+
+                    <span class="mt-6"><strong>Pro-tip:</strong> <span class="font-semibold text-gray-900 underline dark:text-black decoration-indigo-500">Download the "Sundhedskortet" app on your phone. </span> It's a digital version of your yellow card, so even if you forget the plastic one at home, you've always got it with you. (It's available on both Android and IOS)</span>
+
+                </ul>
+    </div>
+
+    <div class="bg-white rounded-2xl shadow p-6 mb-10 mt-4 dark:bg-neutral-100" id="student">
+        <p class="font-bold mb-3 text-neutral-700 md:text-2xl dark:text-neutral-900">Student Card</p>
+        <p class="text-gray-500 dark:text-neutral-700">You must have noticed by now, that you didn't receive a real student card. It is because VIA don't have those (we don't count the keycards which serve as university building access card). Therefore, we have to get one somehow, so we can make use of those tasty student discounts, right?</p>
+        <p class="font-semibold text-gray-900 underline dark:text-black decoration-indigo-500 pt-4">That's where ISIC(International Student Identity Card) comes in place...</p>
+
+        <hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700">
+        <div class="mb-3">
+            <p class="mb-3 text-lg text-neutral-700 md:text-xl dark:text-neutral-600">Prequisities:</p>
+
+            <ul class="space-y-4 text-left text-gray-500 dark:text-gray-800 mb-4">
+                <li class="flex items center space-x-3 rtl:space-x-reverse">
+                    <svg class="shrink-0 w-3.5 h-3.5 text-green-700 dark:text-green-700" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 12">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5.917 5.724 10.5 15 1.5"/>
+                    </svg>
+                    <span>VIA College acceptance letter</span>
+                </li>
+                <li class="flex items center space-x-3 rtl:space-x-reverse">
+                    <svg class="shrink-0 w-3.5 h-3.5 text-green-700 dark:text-green-700" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 12">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5.917 5.724 10.5 15 1.5"/>
+                    </svg>
+                    <span>VIA College student e-mail & outlook access</span>
+                </li>
+                <li class="flex items center space-x-3 rtl:space-x-reverse">
+                    <svg class="shrink-0 w-3.5 h-3.5 text-green-700 dark:text-green-700" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 12">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5.917 5.724 10.5 15 1.5"/>
+                    </svg>
+                    <span>Photo of your ugly ahh face (will serve as ISIC card picture, any pic of yours will work)</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <h2 class="text-2xl font-bold dark:text-neutral-900">How to get your <mark class="px-2 text-white bg-blue-600 rounded-sm dark:bg-blue-500">ISIC</mark> card?</h2>
+    <br>
+    <ul class="pl-6 space-y-4 text-left text-gray-500 dark:text-gray-800 mb-4 list-decimal text-base">
+        <li>
+            <strong>Go to the ISIC Denmark Website</strong>
+            <ul class="ps-5 mt-2 space-y-1 list-inside list-disc">
+                <li>Head over to the official ISIC Denmark website. This is where you'll find the <a href="https://www.isic.org/cards/get-your-card/" class="font-medium text-blue-600 underline dark:text-blue-500 dark:hover:text-blue-600 hover:text-blue-700 hover:no-underline">online application form.</a></li>
+            </ul>
+        </li>
+        <li>
+            <strong>Fill Out the Application Form</strong>
+            <ul class="ps-5 mt-2 space-y-1 list-inside list-disc">
+                <li>Click on the option to get a new card and start filling out your details. This is pretty standard stuff: your name, date of birth, email address, and info about your place of study.</li>
+            </ul>
+        </li>
+        <li>
+            <strong>Upload Your Documents</strong>
+            <ul class="ps-5 mt-2 space-y-1 list-inside list-disc">
+                <li>This is where you'll upload the files you prepared earlier. There will be specific upload fields for your photo and your proof of student status.</li>
+            </ul>
+        </li>
+        <li>
+            <strong>Pay for the Card</strong>
+            <ul class="ps-5 mt-2 space-y-1 list-inside list-disc">
+                <li class="pb-4">The ISIC card isn't free. You'll need to pay the fee for the digital card using a credit or debit card. The price for a one-year digital card is typically around 125 DKK.</li>
+                <span class="mt-6"><strong>Pro-tip:</strong> <span class="font-semibold text-gray-900 underline dark:text-black decoration-indigo-500">You can get it for free.</span> VIA students can apply for free 12 months of usage for digital ISIC Card. And after the time ends, re-apply to get it again. <strong>It works, trust me, I tested it...</strong></span>
+            </ul>
+        </li>
+        <li>
+            <strong>Wait for Approval</strong>
+            <ul class="ps-5 mt-2 space-y-1 list-inside list-disc">
+                <li>After you've submitted everything, the ISIC team will review your application and documents. This usually takes a couple of business days. They'll send you an email to let you know if you've been approved.</li>
+            </ul>
+        </li>
+        <li>
+            <strong>Download the App and Log In</strong>
+            <ul class="ps-5 mt-2 space-y-1 list-inside list-disc">
+                <li>Once you get that approval email, you're all good.</li>
+                <li>Download the official ISIC App from the Apple App Store or Google Play Store.</li>
+                <li>Open the app and log in using the username and password you created during the application process.</li>
+                <li><strong>Easy.</strong></li>
+            </ul>
+        </li>
+    </ul>
 
 </x-inside-layout>
