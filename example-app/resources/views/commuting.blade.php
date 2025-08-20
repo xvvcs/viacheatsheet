@@ -5,7 +5,9 @@
     ['id' => 'trains', 'label' => 'Trains'],
     ['id' => 'airport', 'label' => 'Airport'],
     ['id' => 'commute-card', 'label' => 'Commute Card'],
-    ['id' => 'cars', 'label' => 'Cars']
+    ['id' => 'cars', 'label' => 'Cars'],
+    ['id' => 'bike', 'label' => 'Bike'],
+    ['id' => 'scooter', 'label' => 'E-scooter']
 ]">
     <x-slot:heading>Commuting</x-slot:heading>
     <!-- disclaimer -->
@@ -280,6 +282,45 @@
                     </div>
 
             </div>
+    </div>
+
+
+    <div class="bg-white rounded-2xl shadow p-6 mb-10 dark:bg-neutral-100" id="bike">
+        <h2 class="text-2xl font-bold mb-3 text-neutral-800 dark:text-neutral-900">Bike</h2>
+        <p class="text-gray-600 dark:text-neutral-700 leading-relaxed">
+            <strong>Biking is one of the best ways to move around the city. </strong> Horsens has a well-developed network of bike lanes, making it safe and convenient for cyclists. You can easily rent bikes through various apps or buy a second-hand one from local Facebook marketplace.
+        </p>
+        <p class="text-gray-600 dark:text-neutral-700 leading-relaxed mt-2 pb-4">
+            If you plan to bike regularly, consider investing in a good quality bike lock just to be sure it won't get stolen.
+        </p>
+        <h3 class="text-xl font-bold mb-3 text-neutral-800 dark:text-neutral-900">What to keep in mind: </h3>
+
+        <ol class="list-decimal list-inside space-y-1 text-gray-600 dark:text-neutral-700">
+            <li><span class="font-bold text-gray-900 underline dark:text-black decoration-indigo-500">Buy the front and back lights and thank me later.</span>  You can get a fine up to <strong>1000DKK</strong> from police if you don't have them.</li>
+            <li>You don't need a safety helmet.</li>
+            <li>Repairing a flat tire or other similar stuff costs around 80-200DKK</li>
+            <li><span class="font-bold text-gray-900 underline dark:text-black decoration-indigo-500"> Kamtjatka dormitory sometimes gives away free bikes which got abandoned.</span> </li>
+            <li>If you get your bike stolen, I've got bad news. The chance to get it back is really low, <strong>so its better to have it insured.</strong></li>
+        </ol>
+    </div>
+
+    <div class="bg-white rounded-2xl shadow p-6 mb-10 dark:bg-neutral-100" id="scooter">
+        <h2 class="text-2xl font-bold mb-3 text-neutral-800 dark:text-neutral-900">E-scooter</h2>
+        <p class="text-gray-600 dark:text-neutral-700 leading-relaxed">
+            <strong>E-scooters are fastest and most convenient way to get around the city.</strong> They are easy to use and can be a used as main way to commute to work.
+        </p>
+        <p class="text-gray-600 dark:text-neutral-700 leading-relaxed mt-2 pb-4">
+            Just remember to follow the local traffic rules and park them responsibly to avoid fines.
+        </p>
+        <h3 class="text-xl font-bold mb-3 text-neutral-800 dark:text-neutral-900">What to keep in mind: </h3>
+        <ol class="list-decimal list-inside space-y-1 text-gray-600 dark:text-neutral-700">
+            <li><span class="font-bold text-gray-900 underline dark:text-black decoration-indigo-500">You need to be 15 years old to use them.</span> If you are younger, you can use them only with an adult.</li>
+            <li><span class="font-bold text-gray-900 underline dark:text-black decoration-indigo-500">Always wear a helmet.</span><strong> You will get fined 1000DKK </strong> if you don't wear it on e-scooter.</li>
+            <li>Follow the local traffic rules and regulations.</li>
+            <li>Park them responsibly to avoid fines.</li>
+            <li>Be aware of the speed limits. <strong>The limit is 25km/h.</strong></li>
+            <li>Some apps offer discounts for students, so check if you can get a better deal with your ISIC card.</li>
+        </ol>
     </div>
 
 

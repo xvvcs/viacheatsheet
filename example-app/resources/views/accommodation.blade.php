@@ -11,7 +11,7 @@
         <p class="text-gray-600 dark:text-neutral-700 leading-relaxed mt-2 pb-4">To be fair, Horsens offers a lot of opportunities and options to choose from. I really doubt you would have issues with finding your new home. If you are from Aarhus, well... I suppose you grow money trees.</p>
         <hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700">
         <div class="mb-3">
-            <p class="mb-3 text-lg text-neutral-700 md:text-xl dark:text-neutral-600 font-semibold">These are the places I'll talk about:</p>
+            <p class="mb-3 text-lg text-neutral-700 md:text-xl dark:text-neutral-600 font-semibold">These are the options:</p>
 
             <ol class="relative border-s border-gray-200 dark:border-gray-700">
                 <li class="mb-6 ms-4">
