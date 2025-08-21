@@ -1,5 +1,6 @@
 <x-inside-layout :sections="[
     ['id' => 'accommodation', 'label' => 'Accommodation'],
+    ['id' => 'housing', 'label' => 'What is Housing Benefit?'],
     ['id' => 'furnitures', 'label' => 'Furnitures'],
     ['id' => 'moving', 'label' => 'Moving in/out']
 ]">
@@ -55,7 +56,7 @@
                     <div class="absolute w-3 h-3 bg-gray-700 rounded-full mt-1.5 -start-1.5 border border-gray-900 dark:border-gray-900 dark:bg-gray-700"></div>
                     <time class="mb-1 text-sm font-bold leading-none text-gray-500 dark:text-gray-500">The most expensive</time>
                     <h3 class="text-lg font-semibold text-gray-900 dark:text-black">Solo house/apartment</h3>
-                    <p class="font-normal text-gray-900 underline dark:text-black decoration-indigo-500"">TLDR; Expensive if solo, your OWN place, in 90% cases really well equipped and new, can live wherever, basically each place comes with its own benefits.</p>
+                    <p class="font-normal text-gray-900 underline dark:text-black decoration-indigo-500">TLDR; Expensive if solo, your OWN place, in 90% cases really well equipped and new, can live wherever, basically each place comes with its own benefits.</p>
                     <p class="text-gray-600 dark:text-neutral-700 leading-relaxed mt-2">'Low' end (100-140m²) - rent + utilities is approx. 6,000 DKK - 11,000 DKK per month</p>
                     <p class="text-gray-600 dark:text-neutral-700 leading-relaxed mt-2">'Mid' range (130-180m²) - rent + utilities is approx. 11,000 DKK - 15,000 DKK per month</p>
                     <p class="text-gray-600 dark:text-neutral-700 leading-relaxed mt-2 pb-4">'Higher' end (160-200+²) - rent + utilities is approx.  15,000 DKK+</p>
@@ -75,6 +76,38 @@
             </svg>
             <span class="font-medium">Please be aware of common scams and 'phantom' flats in Denmark. There is a well-known scam on foreign students, where they pay deposit and rent in advance, to later arrive in Denmark to inexistent apartment. <br> You can read more about them <a href="https://bdtu.dk/footer-info-links/housing-scams/" class="underline font-bold">here.</a></span>
         </div>
+    </div>
+
+    <div class="bg-white rounded-2xl shadow p-6 mb-10 dark:bg-neutral-100" id="housing">
+        <h2 class="text-2xl font-bold mb-3 text-neutral-800 dark:text-neutral-900">Housing Benefit</h2>
+        <p class="text-gray-600 dark:text-neutral-700 leading-relaxed mt-2 pb-4">
+            <strong>Not many people know about it</strong> but if you are a student, have a kitchen and your income is below a certain threshold, you may be eligible for housing benefit (boligstøtte). This can help cover some of your rent costs.
+            <br>
+            You can apply for housing benefit through the Danish government's website. Make sure to have all necessary documents ready, such as your rental agreement and proof of income.
+        </p>
+
+        <h2 class="mb-2 text-lg font-semibold text-gray-900 dark:text-black">How much you receive depends on:</h2>
+        <ul class="max-w-md space-y-1 text-gray-500 list-disc list-inside dark:text-gray-800">
+            <li>
+                your rent, excluding costs for electricity, water, heating etc.
+            </li>
+            <li>
+                the size of the tenancy (in square metres)
+            </li>
+            <li>
+                the income and assets of adults living in the home
+            </li>
+            <li>
+                others that probably won't include you as a student.
+            </li>
+        </ul>
+
+        <p class="text-gray-600 dark:text-neutral-700 leading-relaxed mt-2 pb-4">
+            There are many things to consider, that vary case to case. I <strong>HIGHLY</strong>  recommend to read more information on it and visit the <a href="https://lifeindenmark.borger.dk/housing-and-moving/housing-benefits?cookiebanner=true" class="font-medium text-blue-600 underline dark:text-blue-500 dark:hover:text-blue-600 hover:text-blue-700 hover:no-underline">Danish government's housing benefit page</a>.
+        </p>
+
+        <p class="font-normal text-gray-900 underline dark:text-black decoration-indigo-500">If everything goes fine, you can expect additional <strong>100-700dkk per month.</strong></p>
+
     </div>
 
     <!-- furnitures -->
@@ -332,4 +365,5 @@
         </ul>
         <li>Disposing of any trash or unwanted items.</li>
         <li>Ensuring that all appliances are clean and in working order.</li>
+    </ul>
 </x-inside-layout>
