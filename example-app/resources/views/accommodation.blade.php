@@ -79,15 +79,15 @@
     </div>
 
     <div class="bg-white rounded-2xl shadow p-6 mb-10 dark:bg-neutral-100" id="housing">
-        <h2 class="text-2xl font-bold mb-3 text-neutral-800 dark:text-neutral-900">Housing Benefit</h2>
-        <p class="text-gray-600 dark:text-neutral-700 leading-relaxed mt-2 pb-4">
+        <h2 class="text-2xl font-bold mb-3 text-neutral-900 dark:text-neutral-900">Housing Benefit</h2>
+        <p class="text-neutral-700 dark:text-neutral-700 leading-relaxed mt-2 pb-4">
             <strong>Not many people know about it</strong> but if you are a student, have a kitchen and your income is below a certain threshold, you may be eligible for housing benefit (boligstøtte). This can help cover some of your rent costs.
             <br>
             You can apply for housing benefit through the Danish government's website. Make sure to have all necessary documents ready, such as your rental agreement and proof of income.
         </p>
 
-        <h2 class="mb-2 text-lg font-semibold text-gray-900 dark:text-black">How much you receive depends on:</h2>
-        <ul class="max-w-md space-y-1 text-gray-500 list-disc list-inside dark:text-gray-800">
+        <h2 class="mb-2 text-lg font-semibold text-gray-900 dark:text-gray-900">How much you receive depends on:</h2>
+        <ul class="max-w-md space-y-1 text-gray-800 list-disc list-inside dark:text-gray-800">
             <li>
                 your rent, excluding costs for electricity, water, heating etc.
             </li>
@@ -106,7 +106,7 @@
             There are many things to consider, that vary case to case. I <strong>HIGHLY</strong>  recommend to read more information on it and visit the <a href="https://lifeindenmark.borger.dk/housing-and-moving/housing-benefits?cookiebanner=true" class="font-medium text-blue-600 underline dark:text-blue-500 dark:hover:text-blue-600 hover:text-blue-700 hover:no-underline">Danish government's housing benefit page</a>.
         </p>
 
-        <p class="font-normal text-gray-900 underline dark:text-black decoration-indigo-500">If everything goes fine, you can expect additional <strong>100-700dkk per month.</strong></p>
+        <p class="font-normal text-gray-900 underline dark:text-black decoration-indigo-500">If everything goes fine, you can expect additional <strong>100-700 DKK per month.</strong></p>
 
     </div>
 
