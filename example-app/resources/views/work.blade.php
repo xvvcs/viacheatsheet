@@ -10,10 +10,10 @@
     <x-slot:heading>Work</x-slot:heading>
 
     <div class="bg-white rounded-2xl shadow p-6 mb-10 dark:bg-neutral-100" id="work">
-        <h3 class="text-2xl font-bold mb-3 text-neutral-800 dark:text-neutral-900">How to find a <mark class="px-2 text-white bg-blue-600 rounded-sm dark:bg-blue-500">job?</mark></h3>
+        <h3 class="text-2xl font-bold mb-3 text-neutral-800 dark:text-neutral-900">How to find a <mark class="px-2 text-white bg-blue-500 rounded-sm dark:bg-blue-500">job?</mark></h3>
         <p class="text-gray-600 dark:text-neutral-700 leading-relaxed">It may feel a bit overwhelming to find a job, but don't worry. There always is a way to find it.</p>
 
-        <hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700">
+        <hr class="h-px my-8 bg-gray-700 border-0">
 
         <h2 class="mb-2 mt-4 text-lg font-semibold text-gray-900 dark:text-black">Temporary work agencies</h2>
         <p class="text-gray-600 dark:text-neutral-700 leading-relaxed mb-4">Temporary work agencies are a great way to find a job. They have many job offers and can help you find a job that fits your skills and schedule. They do most of the "dirty" work needed to find an employer.</p>
@@ -49,7 +49,7 @@
             </div>
         </dl>
 
-        <hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700">
+        <hr class="h-px my-8 bg-gray-700 border-0">
 
         <h2 class="text-2xl font-bold mb-3 mt-4 text-neutral-800 dark:text-neutral-900">Facebook groups</h2>
         <p class="text-gray-600 dark:text-neutral-700 leading-relaxed mb-4">A popular way to land a job is just being part of any of the Facebook groups for internationals. You can find them in this section <a href="social#fb" class=" text-blue-700 underline hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-100 focus:text-blue-700"> here.</a> A lot of local shops and restaurants post job offers on these groups.</p>
@@ -57,15 +57,12 @@
     </div>
 
     <div class="bg-white rounded-2xl shadow p-6 mb-10 dark:bg-neutral-100" id="earnings">
-        <h3 class="text-2xl font-bold mb-3 text-neutral-800 dark:text-neutral-900">What will be my <mark class="px-2 text-white bg-blue-600 rounded-sm dark:bg-green-500">earnings?</mark></h3>
+        <h3 class="text-2xl font-bold mb-3 text-neutral-800 dark:text-neutral-900">What will be my <mark class="px-2 text-white bg-green-600 rounded-sm dark:bg-green-600">earnings?</mark></h3>
         <p class="text-gray-600 dark:text-neutral-700 leading-relaxed pb-8">They really depend on the kind of work you do. But I can give you some approximates (after tax). Please be aware that these are the estimates and the actual earnings can vary due to many circumstances.</p>
-
-
-
-
+        <!-- table -->
         <div class="relative overflow-x-auto shadow-md sm:rounded-lg">
-            <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
-                <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+            <table class="w-full text-sm text-left rtl:text-right text-gray-400 dark:text-gray-400">
+                <thead class="text-xs text-gray-400 uppercase bg-gray-700 dark:bg-gray-700 dark:text-gray-400">
                 <tr>
                     <th scope="col" class="px-4 py-3">
                         Job name
@@ -83,8 +80,8 @@
                 </tr>
                 </thead>
                 <tbody>
-                <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200 hover:bg-gray-50 dark:hover:bg-gray-600">
-                    <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                <tr class="bg-gray-800 border-b dark:bg-gray-800 dark:border-gray-700 border-gray-700 hover:bg-gray-600 dark:hover:bg-gray-600">
+                    <th scope="row" class="px-6 py-4 font-medium text-white whitespace-nowrap dark:text-white">
                         Dishwashing
                     </th>
                     <td class="px-6 py-4">
@@ -98,8 +95,8 @@
                     </td>
 
                 </tr>
-                <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200 hover:bg-gray-50 dark:hover:bg-gray-600">
-                    <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                <tr class="bg-gray-800 border-b dark:bg-gray-800 dark:border-gray-700 border-gray-700 hover:bg-gray-600 dark:hover:bg-gray-600">
+                    <th scope="row" class="px-6 py-4 font-medium text-white whitespace-nowrap dark:text-white">
                         Warehouse worker
                     </th>
                     <td class="px-6 py-4">
@@ -113,8 +110,8 @@
                     </td>
 
                 </tr>
-                <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200 hover:bg-gray-50 dark:hover:bg-gray-600">
-                    <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                <tr class="bg-gray-800 border-b dark:bg-gray-800 dark:border-gray-700 border-gray-700 hover:bg-gray-600 dark:hover:bg-gray-600">
+                    <th scope="row" class="px-6 py-4 font-medium text-white whitespace-nowrap dark:text-white">
                         Pizza driver
                     </th>
                     <td class="px-6 py-4">
@@ -128,8 +125,8 @@
                     </td>
 
                 </tr>
-                <tr class="bg-white dark:bg-gray-800 hover:bg-gray-50 dark:hover:bg-gray-600">
-                    <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                <tr class="bg-gray-800 border-b dark:bg-gray-800 dark:border-gray-700 border-gray-700 hover:bg-gray-600 dark:hover:bg-gray-600">
+                    <th scope="row" class="px-6 py-4 font-medium text-white whitespace-nowrap dark:text-white">
                         Wolt or Just Eat delivery
                     </th>
                     <td class="px-6 py-4">
@@ -168,7 +165,7 @@
     </div>
 
     <div class="bg-white rounded-2xl shadow p-6 mb-10 dark:bg-neutral-100" id="internship">
-        <h3 class="text-2xl font-bold mb-3 text-neutral-800 dark:text-neutral-900">What about <mark class="px-2 text-white bg-blue-600 rounded-sm dark:bg-orange-500">internship</mark>?</h3>
+        <h3 class="text-2xl font-bold mb-3 text-neutral-800 dark:text-neutral-900">What about <mark class="px-2 text-white bg-orange-500 rounded-sm dark:bg-orange-500">internship</mark>?</h3>
         <p class="text-gray-600 dark:text-neutral-700 leading-relaxed pb-8">Internship is a great way to gain experience and make connections in your field. It is usually unpaid but it can lead to a full-time job.</p>
         <p class="text-gray-600 dark:text-neutral-700 leading-relaxed mb-4">You can find internship opportunities on your programme's website or by asking your teachers. You can also find internship opportunities on job sites like Jobindex, Indeed, and LinkedIn. At VIA we have mandatory internship at 5th semester.</p>
         <p class="text-gray-600 dark:text-neutral-900 leading-relaxed mb-4 font-bold">Internship is 70% connections/networking, 10% skill and 20% luck. But don't worry, you will find it...</p>

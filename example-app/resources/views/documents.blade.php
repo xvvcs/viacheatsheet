@@ -13,23 +13,22 @@
         <svg class="flex-shrink-0 inline w-5 h-5 mr-3 text-red-700" fill="currentColor" viewBox="0 0 20 20">
             <path fill-rule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l6.518 11.59c.75 1.336-.213 3.011-1.742 3.011H3.481c-1.53 0-2.492-1.675-1.742-3.011l6.518-11.59zM11 14a1 1 0 10-2 0 1 1 0 002 0zm-1-2a1 1 0 01-1-1V8a1 1 0 112 0v3a1 1 0 01-1 1z" clip-rule="evenodd"></path>
         </svg>
-        <span class="font-medium">The information you can find here is ONLY for the residents of EU/EEA/Swiss/Nordic.</span>
+    <span class="font-medium text-red-600">The information you can find here is ONLY for the residents of EU/EEA/Swiss/Nordic.</span>
     </div>
 
     <!-- SIRI (EU Residence Document) -->
     <div class="bg-white rounded-2xl shadow p-6 mb-10 dark:bg-neutral-100" id="siri">
-        <h2 class="text-2xl font-bold mb-3 text-neutral-800 dark:text-neutral-900">SIRI (EU Residence Document)</h2>
-        <p class="text-gray-600 dark:text-neutral-700 leading-relaxed">If you’re an EU/EEA/Swiss or Nordic citizen – or a family member of one – you’ll need an EU residence document to show your right to live in Denmark.</p>
-        <p class="text-gray-600 dark:text-neutral-700 leading-relaxed mt-2">You can stay in Denmark for up to 3 months without it (or 6 months if you’re looking for a job). But if you plan to stay longer, make sure to apply for your residence document before that time runs out.</p>
-        <p class="text-gray-600 dark:text-neutral-700 leading-relaxed mt-2">It’s also important to know that this document is a <u class="underline">key step in getting your CPR number</u>, which you’ll need for many things in Denmark.</p>
-        <p class="text-gray-600 dark:text-neutral-700 leading-relaxed mt-2">We recommend booking an appointment <strong>as early as possible</strong>, due to busy SIRI timetables. The closest SIRI department would be in Aarhus or Odense.</p>
+        <h2 class="text-2xl font-bold mb-3 text-neutral-900">SIRI (EU Residence Document)</h2>
+        <p class="text-neutral-700 leading-relaxed">If you’re an EU/EEA/Swiss or Nordic citizen – or a family member of one – you’ll need an EU residence document to show your right to live in Denmark.</p>
+        <p class="text-neutral-700 leading-relaxed mt-2">You can stay in Denmark for up to 3 months without it (or 6 months if you’re looking for a job). But if you plan to stay longer, make sure to apply for your residence document before that time runs out.</p>
+        <p class="text-neutral-700 leading-relaxed mt-2">It’s also important to know that this document is a <u class="underline">key step in getting your CPR number</u>, which you’ll need for many things in Denmark.</p>
+        <p class="text-neutral-700 leading-relaxed mt-2">We recommend booking an appointment <strong>as early as possible</strong>, due to busy SIRI timetables. The closest SIRI department would be in Aarhus or Odense.</p>
 
-
-        <hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700">
+        <hr class="h-px my-8 bg-gray-700 border-0">
         <div class="mb-3">
-            <p class="mb-3 text-lg text-neutral-700 md:text-xl dark:text-neutral-600">Prequisities:</p>
+            <p class="mb-3 text-lg text-neutral-600 md:text-xl">Prequisities:</p>
 
-            <ul class="space-y-4 text-left text-gray-500 dark:text-gray-800 mb-4">
+            <ul class="space-y-4 text-left text-gray-800 mb-4">
                 <li class="flex items-center space-x-3 rtl:space-x-reverse">
                     <svg class="shrink-0 w-3.5 h-3.5 text-green-700 dark:text-green-700" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 12">
                         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5.917 5.724 10.5 15 1.5"/>
@@ -52,9 +51,9 @@
         </div>
     </div>
 
-    <h2 class="text-2xl font-bold dark:text-neutral-900">Step by step process:</h2>
+    <h2 class="text-2xl font-bold text-neutral-900">Step by step process:</h2>
     <br>
-    <ul class="pl-6 space-y-4 text-left text-gray-500 dark:text-gray-800 mb-4 list-decimal text-base">
+    <ul class="pl-6 space-y-4 text-left text-gray-800 mb-4 list-decimal text-base">
         <li>
             Gather your documents and <a href="https://www.nyidanmark.dk/en-GB/You-want-to-apply/Residence-as-a-Nordic-citizen-or-EU-or-EEA-citizen/EU-student?anchor=howtoapply" class="font-medium text-blue-600 underline dark:text-blue-500 dark:hover:text-blue-600 hover:text-blue-700 hover:no-underline">apply online at SIRI website.</a>
         </li>
@@ -80,14 +79,14 @@
 
     <!-- CPR -->
     <div class="bg-white rounded-2xl shadow p-6 mb-10 dark:bg-neutral-100" id="cpr">
-    <p class="font-bold mb-3 text-neutral-700 md:text-2xl dark:text-neutral-900">CPR (Central Person Register)</p>
-    <p class="text-gray-500 dark:text-neutral-700">All residents in Denmark need to have a CPR number. You need it to open a bank account, access your health insurance, borrow books from the library, pay tax, receive a salary and so on. Total must have.</p>
+    <p class="font-bold mb-3 text-neutral-900 md:text-2xl">CPR (Central Person Register)</p>
+    <p class="text-neutral-700">All residents in Denmark need to have a CPR number. You need it to open a bank account, access your health insurance, borrow books from the library, pay tax, receive a salary and so on. Total must have.</p>
 
-    <hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700">
+    <hr class="h-px my-8 bg-gray-700 border-0">
         <div class="mb-3">
-            <p class="mb-3 text-lg text-neutral-700 md:text-xl dark:text-neutral-600">Prequisities:</p>
+            <p class="mb-3 text-lg text-neutral-600 md:text-xl">Prequisities:</p>
 
-            <ul class="space-y-4 text-left text-gray-500 dark:text-gray-800 mb-4">
+            <ul class="space-y-4 text-left text-gray-800 mb-4">
                 <li class="flex items-center space-x-3 rtl:space-x-reverse">
                     <svg class="shrink-0 w-3.5 h-3.5 text-green-700 dark:text-green-700" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 12">
                         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5.917 5.724 10.5 15 1.5"/>
@@ -110,9 +109,9 @@
         </div>
     </div>
 
-    <h2 class="text-2xl font-bold dark:text-neutral-900">How to get your <mark class="px-2 text-white bg-blue-600 rounded-sm dark:bg-blue-500">CPR</mark> as fast as you can?</h2>
+    <h2 class="text-2xl font-bold text-neutral-900">How to get your <mark class="px-2 text-white bg-blue-600 rounded-sm">CPR</mark> as fast as you can?</h2>
     <br>
-    <ul class="pl-6 space-y-4 text-left text-gray-500 dark:text-gray-800 mb-4 list-decimal text-base">
+    <ul class="pl-6 space-y-4 text-left text-gray-800 mb-4 list-decimal text-base">
         <li>
             Visit your nearest Borgerservice (citizen service centre, best option) or book a CPR number application appointment at <a href="https://lifeindenmark.borger.dk/settle-in-denmark/ics-international-citizen-service" class="font-medium text-blue-600 underline dark:text-blue-500 dark:hover:text-blue-600 hover:text-blue-700 hover:no-underline">International Citizen Service Centre.</a>
         </li>
@@ -120,10 +119,10 @@
             You can read more on <a href="https://lifeindenmark.borger.dk/settle-in-denmark/ics-international-citizen-service/ics-west-in-aarhus?frm2=micro-articles-list-f180e8a0-6f4e-47b8-aa8b-4e55284d7bb8" class="font-medium text-blue-600 underline dark:text-blue-500 dark:hover:text-blue-600 hover:text-blue-700 hover:no-underline">ICS West website.</a> Follow steps there.
             <ul class="ps-5 mt-2 space-y-1 list-inside list-disc">
             </ul>
-            <p class="text-gray-500 whitespace-normal dark:text-gray-400">As far as we remember (it may be old way), you could have booked a meeting on a <a href="https://horsens.dk/workandstudy/newtohorsens/officialmatters" class="font-medium text-blue-600 underline dark:text-blue-500 dark:hover:text-blue-600 hover:text-blue-700 hover:no-underline">Horsens Kommune</a> website and go there to get your CPR number, which would make you avoid taking a trip to Aarhus. Or just go there without an appointment and stand in a queue for a while.</p>
+            <p class="text-gray-400 whitespace-normal">As far as we remember (it may be old way), you could have booked a meeting on a <a href="https://horsens.dk/workandstudy/newtohorsens/officialmatters" class="font-medium text-blue-600 underline dark:text-blue-500 dark:hover:text-blue-600 hover:text-blue-700 hover:no-underline">Horsens Kommune</a> website and go there to get your CPR number, which would make you avoid taking a trip to Aarhus. Or just go there without an appointment and stand in a queue for a while.</p>
         </li>
         <li>
-            The whole applying process will probably take 1-2 hours or so, therefore make sure to have all your documents ready. Then, you will receive a CPR number on the spot, which is great but <p class="font-semibold text-gray-900 underline dark:text-black decoration-red-500">you won't get your Yellow Card right away. Waiting for Yellow Card is approximately 1-3 weeks.</p>
+            The whole applying process will probably take 1-2 hours or so, therefore make sure to have all your documents ready. Then, you will receive a CPR number on the spot, which is great but <p class="font-semibold text-black underline decoration-red-500">you won't get your Yellow Card right away. Waiting for Yellow Card is approximately 1-3 weeks.</p>
         </li>
         <li>
             Now, when you have your CPR number, you can do a lot of things, like opening a bank account, opening a MitID account, getting a phone number, etc. But remember, you still need to wait for your Yellow Card to be able to access the Danish healthcare system.
@@ -131,15 +130,15 @@
     </ul>
 
     <!-- Tax Cards -->
-    <div class="bg-white rounded-2xl shadow p-6 mb-10 dark:bg-neutral-100" id="tax">
-    <p class="font-bold mb-3 text-neutral-700 md:text-2xl dark:text-neutral-900">Tax Cards</p>
-    <p class="text-gray-500 dark:text-neutral-700">You need them to be able to get that bread. Denmark has high taxes, but there are couple tricks you can do to get the most as a student. In Denmark, there are 3 types of tax cards you should know about.</p>
+    <div class="bg-white rounded-2xl shadow p-6 mb-10" id="tax">
+    <p class="font-bold mb-3 text-neutral-900 md:text-2xl">Tax Cards</p>
+    <p class="text-neutral-700">You need them to be able to get that bread. Denmark has high taxes, but there are couple tricks you can do to get the most as a student. In Denmark, there are 3 types of tax cards you should know about.</p>
 
-    <hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700">
+    <hr class="h-px my-8 bg-gray-700 border-0">
         <div class="mb-3">
-            <p class="mb-3 text-lg text-neutral-700 md:text-xl dark:text-neutral-600">Prequisities:</p>
+            <p class="mb-3 text-lg text-neutral-600 md:text-xl">Prequisities:</p>
 
-            <ul class="space-y-4 text-left text-gray-500 dark:text-gray-800 mb-4">
+            <ul class="space-y-4 text-left text-gray-800 mb-4">
                 <li class="flex items-center space-x-3 rtl:space-x-reverse">
                     <svg class="shrink-0 w-3.5 h-3.5 text-green-700 dark:text-green-700" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 12">
                         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5.917 5.724 10.5 15 1.5"/>
@@ -168,14 +167,14 @@
         </div>
     </div>
 
-    <h2 class="text-2xl font-bold dark:text-neutral-900">Tax <mark class="px-2 text-white bg-blue-600 rounded-sm dark:bg-blue-500">cards</mark> in a nutshell:</h2>
+    <h2 class="text-2xl font-bold text-neutral-900">Tax <mark class="px-2 text-white bg-blue-600 rounded-sm">cards</mark> in a nutshell:</h2>
     <br>
-    <p class="pl-6 space-y-4 text-left text-gray-500 dark:text-gray-800 mb-4 text-base">Tax card is a generic term for primary tax card (hovedkort), secondary tax card (bikort) and tax exemption card (frikort). You can read about how to get them in detail <a href="https://skat.dk/en-us/businesses/employees-and-pay/non-danish-labour/get-a-tax-card-as-a-non-danish-employee?oid=2244407&vid=0" class="font-medium text-blue-600 underline dark:text-blue-500 dark:hover:text-blue-600 hover:text-blue-700 hover:no-underline">here.</a> While applying they will ask you for approx. year income and so on, so be prepared.
-        Don't worry, any amounts put too high will be <span class="font-semibold text-gray-900 underline dark:text-black decoration-indigo-500">returned in TAX return on March.</span> Better put it a bit higher than actual year income to be sure you chill.</p>
-    <p class="pl-6 space-y-4 text-left text-gray-500 dark:text-gray-800 mb-4 text-base"><strong>We recommend you don’t apply for your tax card until 1 month before you start your job,</strong> as they simply might not manage to get it for you before you start work. With that said, once you are <i><strong>sure</strong></i> you will get it, apply right away.</p>
-    <p class="pl-6 space-y-4 text-left text-gray-500 dark:text-gray-800 mb-4 text-base">By default, you set it to receive your salary on a hovedkort(A card) and put SU on bikort(B card). We mean by default, because, usually the monthly salary is bigger than SU, which means if we want the highest income with the lowest paid in TAX,
-        <span class="font-semibold text-gray-900 underline dark:text-black decoration-indigo-500">we put the HIGH income on A card and LOWER income on B card, so the lower income gets taxed the most and high income the lowest.</span>  </p>
-    <ul class="pl-6 space-y-4 text-left text-gray-500 dark:text-gray-800 mb-4 list-decimal text-base">
+    <p class="pl-6 space-y-4 text-left text-gray-800 mb-4 text-base">Tax card is a generic term for primary tax card (hovedkort), secondary tax card (bikort) and tax exemption card (frikort). You can read about how to get them in detail <a href="https://skat.dk/en-us/businesses/employees-and-pay/non-danish-labour/get-a-tax-card-as-a-non-danish-employee?oid=2244407&vid=0" class="font-medium text-blue-600 underline dark:text-blue-500 dark:hover:text-blue-600 hover:text-blue-700 hover:no-underline">here.</a> While applying they will ask you for approx. year income and so on, so be prepared.
+        Don't worry, any amounts put too high will be <span class="font-semibold text-black underline decoration-indigo-500">returned in TAX return on March.</span> Better put it a bit higher than actual year income to be sure you chill.</p>
+    <p class="pl-6 space-y-4 text-left text-gray-800 mb-4 text-base"><strong>We recommend you don’t apply for your tax card until 1 month before you start your job,</strong> as they simply might not manage to get it for you before you start work. With that said, once you are <i><strong>sure</strong></i> you will get it, apply right away.</p>
+    <p class="pl-6 space-y-4 text-left text-gray-800 mb-4 text-base">By default, you set it to receive your salary on a hovedkort(A card) and put SU on bikort(B card). We mean by default, because, usually the monthly salary is bigger than SU, which means if we want the highest income with the lowest paid in TAX,
+        <span class="font-semibold text-black underline decoration-indigo-500">we put the HIGH income on A card and LOWER income on B card, so the lower income gets taxed the most and high income the lowest.</span>  </p>
+    <ul class="pl-6 space-y-4 text-left text-gray-800 mb-4 list-decimal text-base">
         <li>
             <span class=" font-bold">Primary tax card (hovedkort)</span> states both the amount you will not be taxed on (your personal allowance) and the tax rate you will have to pay.
             <ul class="ps-5 mt-2 space-y-1 list-inside list-disc">
@@ -198,19 +197,19 @@
         </li>
     </ul>
 
-    <p class="pl-6 space-y-4 text-left text-gray-500 dark:text-gray-800 mb-4 text-base">Calculate your expected profit <a href="https://salaryaftertax.com/salary-calculator/denmark" class="font-medium text-blue-600 underline dark:text-blue-500 dark:hover:text-blue-600 hover:text-blue-700 hover:no-underline">here.</a></p>
+    <p class="pl-6 space-y-4 text-left text-gray-800 mb-4 text-base">Calculate your expected profit <a href="https://salaryaftertax.com/salary-calculator/denmark" class="font-medium text-blue-600 underline dark:text-blue-500 dark:hover:text-blue-600 hover:text-blue-700 hover:no-underline">here.</a></p>
 
     <!-- SU -->
-    <div class="bg-white rounded-2xl shadow p-6 mb-10 dark:bg-neutral-100" id="su">
-    <p class="font-bold mb-3 text-neutral-700 md:text-2xl dark:text-neutral-900">SU (Danish state educational grant)</p>
-        <p class="text-gray-500 dark:text-neutral-700"><span class="font-semibold text-gray-900 underline dark:text-black decoration-indigo-500">This is the sauce.</span> SU stands for Statens Uddannelsesstøtte, which is the Danish State Educational Grant and Loan Scheme. It is a financial aid program that provides financial support to eligible students studying at institutions of higher education in Denmark.</p>
-        <p class="text-gray-500 dark:text-neutral-700"> You will receive approx. 1000$ per month. So, to put it into perspective its <strong>7000DKK before tax - 4500DKK after tax (SU on B tax card).</strong></p>
+    <div class="bg-white rounded-2xl shadow p-6 mb-10" id="su">
+    <p class="font-bold mb-3 text-neutral-900 md:text-2xl">SU (Danish state educational grant)</p>
+        <p class="text-neutral-700"><span class="font-semibold text-black underline decoration-indigo-500">This is the sauce.</span> SU stands for Statens Uddannelsesstøtte, which is the Danish State Educational Grant and Loan Scheme. It is a financial aid program that provides financial support to eligible students studying at institutions of higher education in Denmark.</p>
+        <p class="text-neutral-700"> You will receive approx. 1000$ per month. So, to put it into perspective its <strong>7000DKK before tax - 4500DKK after tax (SU on B tax card).</strong></p>
 
-    <hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700">
+    <hr class="h-px my-8 bg-gray-700 border-0">
         <div class="mb-3">
-            <p class="mb-3 text-lg text-neutral-700 md:text-xl dark:text-neutral-600">Prequisities:</p>
+            <p class="mb-3 text-lg text-neutral-600 md:text-xl">Prequisities:</p>
 
-            <ul class="space-y-4 text-left text-gray-500 dark:text-gray-800 mb-4">
+            <ul class="space-y-4 text-left text-gray-800 mb-4">
                 <li class="flex items-center space-x-3 rtl:space-x-reverse">
                     <svg class="shrink-0 w-3.5 h-3.5 text-green-700 dark:text-green-700" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 12">
                         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5.917 5.724 10.5 15 1.5"/>
@@ -262,9 +261,9 @@
         </div>
     </div>
 
-    <h2 class="text-2xl font-bold dark:text-neutral-900">How to <mark class="px-2 text-white bg-blue-600 rounded-sm dark:bg-blue-500">apply</mark> for SU:</h2>
+    <h2 class="text-2xl font-bold text-neutral-900">How to <mark class="px-2 text-white bg-blue-600 rounded-sm">apply</mark> for SU:</h2>
     <br>
-    <ul class="pl-6 space-y-4 text-left text-gray-500 dark:text-gray-800 mb-4 list-decimal text-base">
+    <ul class="pl-6 space-y-4 text-left text-gray-800 mb-4 list-decimal text-base">
         <li>
             Be sure you have your Equal citizen status document ready.
             <ul class="ps-5 mt-2 space-y-1 list-inside list-disc">
@@ -288,18 +287,18 @@
         </li>
     </ul>
 
-    <p class="text-gray-500 dark:text-neutral-700">We recommend you apply for SU <span class="font-semibold text-gray-900 underline dark:text-black decoration-indigo-500">right after you get the employment contract.</span> It is due to long waiting times to get a response <strong>  (approx 2-4 weeks)</strong> and I assume we want to get the SU ASAP.</p>
+    <p class="text-neutral-700">We recommend you apply for SU <span class="font-semibold text-black underline decoration-indigo-500">right after you get the employment contract.</span> It is due to long waiting times to get a response <strong>  (approx 2-4 weeks)</strong> and I assume we want to get the SU ASAP.</p>
 
 
-    <div class="bg-white rounded-2xl shadow p-6 mb-10 mt-4 dark:bg-neutral-100" id="health">
-        <p class="font-bold mb-3 text-neutral-700 md:text-2xl dark:text-neutral-900">Yellow Card (Health Insurance Card)</p>
-        <p class="text-gray-500 dark:text-neutral-700">The Yellow Card is your health insurance card in Denmark. It proves that you are entitled to healthcare services in the country.</p> <span class="font-semibold text-gray-900 underline dark:text-black decoration-indigo-500"> Wait time for it is about 1-3 weeks (since getting a CPR number).</span>
+    <div class="bg-white rounded-2xl shadow p-6 mb-10 mt-4" id="health">
+        <p class="font-bold mb-3 text-neutral-900 md:text-2xl">Yellow Card (Health Insurance Card)</p>
+        <p class="text-neutral-700">The Yellow Card is your health insurance card in Denmark. It proves that you are entitled to healthcare services in the country.</p> <span class="font-semibold text-black underline decoration-indigo-500"> Wait time for it is about 1-3 weeks (since getting a CPR number).</span>
 
-        <hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700">
+        <hr class="h-px my-8 bg-gray-700 border-0">
         <div class="mb-3">
-            <p class="mb-3 text-lg text-neutral-700 md:text-xl dark:text-neutral-600">Prequisities:</p>
+            <p class="mb-3 text-lg text-neutral-600 md:text-xl">Prequisities:</p>
 
-            <ul class="space-y-4 text-left text-gray-500 dark:text-gray-800 mb-4">
+            <ul class="space-y-4 text-left text-gray-800 mb-4">
                 <li class="flex items center space-x-3 rtl:space-x-reverse">
                     <svg class="shrink-0 w-3.5 h-3.5 text-green-700 dark:text-green-700" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 12">
                         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5.917 5.724 10.5 15 1.5"/>
@@ -384,21 +383,21 @@
                     </li>
 
 
-                    <span class="mt-6"><strong>Pro-tip:</strong> <span class="font-semibold text-gray-900 underline dark:text-black decoration-indigo-500">Download the "Sundhedskortet" app on your phone. </span> It's a digital version of your yellow card, so even if you forget the plastic one at home, you've always got it with you. (It's available on both Android and IOS)</span>
+                    <span class="mt-6"><strong>Pro-tip:</strong> <span class="font-semibold text-black underline decoration-indigo-500">Download the "Sundhedskortet" app on your phone. </span> It's a digital version of your yellow card, so even if you forget the plastic one at home, you've always got it with you. (It's available on both Android and IOS)</span>
 
                 </ul>
     </div>
 
-    <div class="bg-white rounded-2xl shadow p-6 mb-10 mt-4 dark:bg-neutral-100" id="student">
-        <p class="font-bold mb-3 text-neutral-700 md:text-2xl dark:text-neutral-900">Student Card</p>
-        <p class="text-gray-500 dark:text-neutral-700">You must have noticed by now, that you didn't receive a real student card. It is because VIA don't have those (we don't count the keycards which serve as university building access card). Therefore, we have to get one somehow, so we can make use of those tasty student discounts, right?</p>
-        <p class="font-semibold text-gray-900 underline dark:text-black decoration-indigo-500 pt-4">That's where ISIC(International Student Identity Card) comes in place...</p>
+    <div class="bg-white rounded-2xl shadow p-6 mb-10 mt-4" id="student">
+        <p class="font-bold mb-3 text-neutral-900 md:text-2xl">Student Card</p>
+        <p class="text-neutral-700">You must have noticed by now, that you didn't receive a real student card. It is because VIA don't have those (we don't count the keycards which serve as university building access card). Therefore, we have to get one somehow, so we can make use of those tasty student discounts, right?</p>
+        <p class="font-semibold text-black underline decoration-indigo-500 pt-4">That's where ISIC(International Student Identity Card) comes in place...</p>
 
-        <hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700">
+        <hr class="h-px my-8 bg-gray-700 border-0">
         <div class="mb-3">
-            <p class="mb-3 text-lg text-neutral-700 md:text-xl dark:text-neutral-600">Prequisities:</p>
+            <p class="mb-3 text-lg text-neutral-600 md:text-xl">Prequisities:</p>
 
-            <ul class="space-y-4 text-left text-gray-500 dark:text-gray-800 mb-4">
+            <ul class="space-y-4 text-left text-gray-800 mb-4">
                 <li class="flex items center space-x-3 rtl:space-x-reverse">
                     <svg class="shrink-0 w-3.5 h-3.5 text-green-700 dark:text-green-700" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 12">
                         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5.917 5.724 10.5 15 1.5"/>
@@ -421,9 +420,9 @@
         </div>
     </div>
 
-    <h2 class="text-2xl font-bold dark:text-neutral-900">How to get your <mark class="px-2 text-white bg-blue-600 rounded-sm dark:bg-blue-500">ISIC</mark> card?</h2>
+    <h2 class="text-2xl font-bold text-neutral-900">How to get your <mark class="px-2 text-white bg-blue-600 rounded-sm">ISIC</mark> card?</h2>
     <br>
-    <ul class="pl-6 space-y-4 text-left text-gray-500 dark:text-gray-800 mb-4 list-decimal text-base">
+    <ul class="pl-6 space-y-4 text-left text-gray-800 mb-4 list-decimal text-base">
         <li>
             <strong>Go to the ISIC Denmark Website</strong>
             <ul class="ps-5 mt-2 space-y-1 list-inside list-disc">

@@ -15,11 +15,11 @@
 </button>
 
 <aside id="default-sidebar" class="fixed top-0 left-0 z-40 w-64 h-screen transition-transform -translate-x-full sm:translate-x-0" aria-label="Sidebar">
-    <div class="h-full px-3 py-4 overflow-y-auto bg-gray-50 dark:bg-gray-800">
+    <div class="h-full px-3 py-4 overflow-y-auto text-white bg-gray-800 dark:bg-gray-800">
         <ul class="space-y-2 font-medium">
             <li>
                 <x-nav-link href="/">
-                    <svg class="w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 21">
+                    <svg class="w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-white dark:group-hover:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 21">
                         <path d="M11.47 3.841a.75.75 0 0 1 1.06 0l8.69 8.69a.75.75 0 1 0 1.06-1.061l-8.689-8.69a2.25 2.25 0 0 0-3.182 0l-8.69 8.69a.75.75 0 1 0 1.061 1.06l8.69-8.689Z" />
                         <path d="m12 5.432 8.159 8.159c.03.03.06.058.091.086v6.198c0 1.035-.84 1.875-1.875 1.875H15a.75.75 0 0 1-.75-.75v-4.5a.75.75 0 0 0-.75-.75h-3a.75.75 0 0 0-.75.75V21a.75.75 0 0 1-.75.75H5.625a1.875 1.875 0 0 1-1.875-1.875v-6.198a2.29 2.29 0 0 0 .091-.086L12 5.432Z" />
                     </svg>
@@ -30,7 +30,7 @@
                 @foreach($sections ?? [] as $section)
                     <li>
                         <x-nav-link href="#{{ $section['id'] }}">
-                            <svg class="w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 21">
+                            <svg class="w-5 h-5 text-gray-400 transition duration-75 dark:text-gray-400 group-hover:text-white dark:group-hover:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 21">
                                 <path fill-rule="evenodd" d="M4.25 12a.75.75 0 0 1 .75-.75h14a.75.75 0 0 1 0 1.5H5a.75.75 0 0 1-.75-.75Z" clip-rule="evenodd" />
                             </svg>
                             <span class="ms-3">{{ $section['label'] }}</span>
@@ -55,10 +55,10 @@
     <div class="p-12 rounded-lg">
         {{$slot}}
     </div>
-        <footer class="bg-white shadow-sm dark:bg-gray-800">
+        <footer class="bg-gray-800 shadow-sm dark:bg-gray-800">
             <div class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
-            <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400 pr-2">© 2025 Created by <a href="https://github.com/xvvcs" class="hover:underline">Matuszewski</a> & <a href="https://github.com/imskaff" class="hover:underline">Terelak</a>. All rights reserved. This is an independent website and is not affiliated or owned by <a href="https://en.via.dk/" class="hover:underline">VIA University College</a>.</span>
-                <ul class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
+            <span class="text-sm text-gray-400 sm:text-center dark:text-gray-400 pr-2">© 2025 Created by <a href="https://github.com/xvvcs" class="hover:underline">Matuszewski</a> & <a href="https://github.com/imskaff" class="hover:underline">Terelak</a>. All rights reserved. This is an independent website and is not affiliated or owned by <a href="https://en.via.dk/" class="hover:underline">VIA University College</a>.</span>
+                <ul class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-400 dark:text-gray-400 sm:mt-0">
                     <li><a href="#" class="hover:underline me-4 md:me-6">About</a></li>
                     <li><a href="#" class="hover:underline me-4 md:me-6">Privacy Policy</a></li>
                     <li><a href="#" class="hover:underline me-4 md:me-6">Licensing</a></li>

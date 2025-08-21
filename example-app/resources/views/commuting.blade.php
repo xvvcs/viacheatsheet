@@ -43,14 +43,14 @@
         </span>
         <span class="text-2xl font-bold text-gray-700 dark:text-neutral-800">rejsekort</span>
     </div>
-        <p class="font-bold pl-6 space-y-4 text-left text-gray-500 dark:text-gray-800 mb-4 text-base">
+        <p class="font-bold pl-6 space-y-4 text-left text-gray-800 dark:text-gray-800 mb-4 text-base">
             Rejsekort is a smart card used for travel on public transport in Denmark. It's an essential tool when traveling by bus and here's how you use it:</p>
-            <ul class="pl-6 space-y-4 text-left text-gray-500 dark:text-gray-800 mb-4 list-decimal text-base">
+            <ul class="pl-6 space-y-4 text-left text-gray-800 dark:text-gray-800 mb-4 list-decimal text-base">
                 <li>Make an account and add a payment method (credit card or MobilePay).</li>
                 <li>Whenever getting on the bus, simply swipe "Check in" on your phone and show the QR code to the driver.</li>
                 <li>When you reach your destination, remember to end your journey so you don't get charged for the entire route.</li>
             </ul>
-        <span class="font-bold pl-2 space-y-4 text-left text-gray-500 dark:text-gray-800 text-base">We can easily say its the cheapest option to commute and move around.</span> <span class="font-bold text-gray-900 underline dark:text-black decoration-red-500">The ticket costs only 14DKK.</span>
+        <span class="font-bold pl-2 space-y-4 text-left text-gray-800 dark:text-gray-800 text-base">We can easily say its the cheapest option to commute and move around.</span> <span class="font-bold text-gray-900 underline dark:text-black decoration-red-500">The ticket costs only 14DKK.</span>
     <!-- Midtraffik live -->
     <div class="flex items-center mb-4 mt-4">
         <span class="w-10 h-10 bg-gray-200 rounded-full flex items-center justify-center mr-3">
@@ -58,7 +58,7 @@
         </span>
         <span class="text-2xl font-bold text-gray-700 dark:text-neutral-800">Midtraffik live</span>
     </div>
-        <p class="font-bold pl-6 space-y-4 text-left text-gray-500 dark:text-gray-800 mb-4 text-base">
+        <p class="font-bold pl-6 space-y-4 text-left text-gray-800 dark:text-gray-800 mb-4 text-base">
             Midtraffik live is the official app for Midttrafik. It offers features like live tracking of buses, notifications about delays, and the ability to purchase tickets directly from your phone.
         </p>
     </div>
@@ -80,54 +80,54 @@
             </span>
             <span class="text-2xl font-bold text-gray-700 dark:text-neutral-800">DSB</span>
         </div>
-            <p class="font-bold pl-2 space-y-4 text-left text-gray-500 dark:text-gray-800 mb-4 text-base">
+            <p class="font-bold pl-2 space-y-4 text-left text-gray-800 dark:text-gray-800 mb-4 text-base">
                 DSB is the official app for Denmark's national railway company. It provides real-time information on train schedules, platform changes, and ticket purchases. Here's how you use it:</p>
-                <ul class="pl-6 space-y-4 text-left text-gray-500 dark:text-gray-800 mb-4 list-decimal text-base">
+                <ul class="pl-6 space-y-4 text-left text-gray-800 dark:text-gray-800 mb-4 list-decimal text-base">
                     <li>Make an account on the DSB App.</li>
                     <li>Search for your desired train route and view real-time schedules.</li>
-                    <ul class="pl-6 space-y-4 text-left text-gray-500 dark:text-gray-800 mb-4 list-disc text-base">
+                    <ul class="pl-6 space-y-4 text-left text-gray-800 dark:text-gray-800 mb-4 list-disc text-base">
                         <li>If you are in the age of 16-25, make sure you choose "Young 16-25 years" for discounted fares.</li>
                     </ul>
                     <li>Purchase tickets directly through the app for a seamless travel experience.</li>
                     <li>On the "Your trips" section, you can view your tickets and past travel history.</li>
                 </ul>
 
-        <span class="font-bold pl-2 space-y-4 text-left text-gray-500 dark:text-gray-800 text-base"> DSB Tip:</span> Always try to buy tickets in advance, as it can save you money. If you buy a ticket on the train, it will cost you more than if you buy it in advance through the app or at the station. The price difference can be significant, so it's worth planning ahead to get the best deal. <br>
-        <span class="font-bold pl-2 space-y-4 text-left text-gray-500 dark:text-gray-800 text-base"> The ticket costs around 50-200DKK depending on the distance.</span> <span class="font-bold text-gray-900 underline dark:text-black decoration-red-500">The ticket to Copenhagen H and Copenhagen airport solds out and can get pricey fast. Don't think, buy. </span>
+        <span class="font-bold pl-2 space-y-4 text-left text-gray-800 dark:text-gray-800 text-base"> DSB Tip:</span> Always try to buy tickets in advance, as it can save you money. If you buy a ticket on the train, it will cost you more than if you buy it in advance through the app or at the station. The price difference can be significant, so it's worth planning ahead to get the best deal. <br>
+        <span class="font-bold pl-2 space-y-4 text-left text-gray-800 dark:text-gray-800 text-base"> The ticket costs around 50-200DKK depending on the distance.</span> <span class="font-bold text-gray-900 underline dark:text-black decoration-red-500">The ticket to Copenhagen H and Copenhagen airport solds out and can get pricey fast. Don't think, buy. </span>
     </div>
     <!-- airports -->
     <div class="bg-white rounded-2xl shadow p-6 mb-10 dark:bg-neutral-100" id="airport">
         <h2 class="text-2xl font-bold mb-3 text-neutral-800 dark:text-neutral-900">Airports</h2>
-        <p class="font-bold pl-2 space-y-4 text-left text-gray-500 dark:text-gray-800 mb-4 text-base"> There are 3 main airports close to us:</p>
-        <ul class="pl-6 space-y-4 text-left text-gray-500 dark:text-gray-800 mb-4 list-decimal text-base">
+        <p class="font-bold pl-2 space-y-4 text-left text-gray-800 dark:text-gray-800 mb-4 text-base"> There are 3 main airports close to us:</p>
+        <ul class="pl-6 space-y-4 text-left text-gray-800 dark:text-gray-800 mb-4 list-decimal text-base">
             <li><b>Aarhus Airport (AAR)</b> - Located about 40 km from Horsens, it offers both domestic and international flights.</li>
             <li><b>Billund Airport (BLL)</b> - Approximately 50 km away, it's the second-largest airport in Denmark and serves many international destinations.</li>
             <li><b>Copenhagen Airport (CPH)</b> - The largest airport in Denmark, located about 200 km from Horsens, it connects to numerous global destinations.</li>
         </ul>
 
-        <p class="font-bold pl-2 space-y-4 text-left text-gray-500 dark:text-gray-800 mb-4 text-base"> Your main one, most likely, will be the CPH airport</p>
-        <p class="text-gray-600 dark:text-neutral-700 leading-relaxed">To get to the airport, you can use the DSB train service from Horsens to Copenhagen Central Station (København H), and then transfer to the Metro or another train that goes directly to the airport. The journey takes about 2.5 to 3 hours, depending on connections.</p>
-        <p class="text-gray-600 dark:text-neutral-700 leading-relaxed"> In case of wanting to use Billund Airport, you can take a train from Horsens to Vejle, and then Bus to Billund which takes about 1 hour. The bus service is operated by Midttrafik and offers a convenient way to reach the airport.</p>
+        <p class="font-bold pl-2 space-y-4 text-left text-gray-800 dark:text-gray-800 mb-4 text-base"> Your main one, most likely, will be the CPH airport</p>
+        <p class="text-neutral-700 dark:text-neutral-700 leading-relaxed">To get to the airport, you can use the DSB train service from Horsens to Copenhagen Central Station (København H), and then transfer to the Metro or another train that goes directly to the airport. The journey takes about 2.5 to 3 hours, depending on connections.</p>
+        <p class="text-neutral-700 dark:text-neutral-700 leading-relaxed"> In case of wanting to use Billund Airport, you can take a train from Horsens to Vejle, and then Bus to Billund which takes about 1 hour. The bus service is operated by Midttrafik and offers a convenient way to reach the airport.</p>
     </div>
     <!-- commute cards -->
     <div class="bg-white rounded-2xl shadow p-6 mb-10 dark:bg-neutral-100" id="commute-card">
         <h2 class="text-2xl font-bold mb-3 text-neutral-800 dark:text-neutral-900">Commute Card</h2>
-        <p class="text-gray-600 dark:text-neutral-700 leading-relaxed">
+        <p class="text-neutral-700 dark:text-neutral-700 leading-relaxed">
             If you plan to commute frequently, consider getting a <b>commute card</b>. It offers unlimited travel within a specific zone for a monthly fee, making it a cost-effective option for regular commuters. You can purchase it through the Rejseplanen app or at ticket counters.
         </p>
-        <p class="text-gray-600 dark:text-neutral-700 leading-relaxed mt-2 pb-4">
+        <p class="text-neutral-700 dark:text-neutral-700 leading-relaxed mt-2 pb-4">
             The commute card is especially useful for students and professionals who travel daily, as it provides flexibility and convenience.
         </p>
 
-        <p class="font-bold pl-2 space-y-4 text-left text-gray-500 dark:text-gray-800 mb-4 text-base"> As for interns...
-        <p class="text-gray-600 dark:text-neutral-700 leading-relaxed mt-2 pb-4"> you can get a <b>student commute card</b> which is cheaper than the regular one. It costs <b>around 500DKK per month </b> allows unlimited travel within your selected zones. You can let your employer know, and they will help you with the process of getting it. Then, the government will cover the expenses.</p>
+        <p class="font-bold pl-2 space-y-4 text-left text-gray-800 dark:text-gray-800 mb-4 text-base"> As for interns...
+        <p class="text-neutral-700 dark:text-neutral-700 leading-relaxed mt-2 pb-4"> you can get a <b>student commute card</b> which is cheaper than the regular one. It costs <b>around 500DKK per month </b> allows unlimited travel within your selected zones. You can let your employer know, and they will help you with the process of getting it. Then, the government will cover the expenses.</p>
     </div>
         <!-- cars -->
         <div class="bg-white rounded-2xl shadow p-6 mb-10 dark:bg-neutral-100" id="cars">
         <h2 class="text-2xl font-bold mb-3 text-neutral-800 dark:text-neutral-900">Cars</h2>
-        <p class="text-gray-600 dark:text-neutral-700 leading-relaxed mb-6">You probably already heard how expensive it is to have a car in Denmark, mainly because of the taxes. Don't worry, we'll explain it as simply as possible and also share some tricks.</p>
+        <p class="text-neutral-700 dark:text-neutral-700 leading-relaxed mb-6">You probably already heard how expensive it is to have a car in Denmark, mainly because of the taxes. Don't worry, we'll explain it as simply as possible and also share some tricks.</p>
 
-        <!-- Driving on Foreign Plates --> <hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700">
+        <!-- Driving on Foreign Plates --> <hr class="h-px my-8 bg-gray-700 border-0">
 
             <h3 class="text-xl font-bold mb-3 text-neutral-800 dark:text-neutral-900 flex items-center">
                 1. Driving on Foreign Plates explained.
@@ -142,7 +142,7 @@
                     <p class="text-gray-600 dark:text-neutral-700 leading-relaxed">
                         You have <span class="font-semibold text-gray-900 underline dark:text-black decoration-red-500">30 days</span> from the date you register for your CPR number to register your foreign car in Denmark. You can't just keep driving it on your old plates. I mean you can but if they catch you, it's going to be expensive... You need to start the import and registration process with the Danish Tax Agency (Skat) within that month.
                     </p>
-                <p class="font-semibold pl-2 space-y-4 text-left text-gray-500 dark:text-gray-800 mb-4 text-base italic">If your car is not in Denmark all the time, but shifts from one country to another with a proof, that's a different case.</p>
+                <p class="font-semibold pl-2 space-y-4 text-left text-gray-800 dark:text-gray-800 mb-4 text-base italic">If your car is not in Denmark all the time, but shifts from one country to another with a proof, that's a different case.</p>
 
 
                     <h4 class="font-bold text-gray-900 underline dark:text-black decoration-indigo-500">If you are just visiting (Tourist):</h4>
@@ -158,7 +158,7 @@
                     </p>
         </div>
 
-        <!-- The Taxes --> <hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700">
+        <!-- The Taxes --> <hr class="h-px my-8 bg-gray-700 border-0">
 
             <h3 class="text-xl font-bold mb-3 mt-8 text-neutral-800 dark:text-neutral-900 flex items-center">
                 2. The Taxes explained.
@@ -175,7 +175,7 @@
                     </p>
 
                     <div class="bg-gray-50 dark:bg-gray-100 p-3 rounded-lg mb-3">
-                        <p class="font-semibold text-gray-800 dark:text-gray-900 mb-2">How it works:</p>
+                        <p class="font-semibold text-gray-900 dark:text-gray-900 mb-2">How it works:</p>
                         <ul class="list-disc list-inside space-y-1 text-gray-600 dark:text-neutral-700">
                             <li><span class="font-semibold text-gray-900 underline dark:text-black decoration-red-500">You pay a low rate (25%)</span> on the first part of the car's value</li>
                             <li><span class="font-semibold text-gray-900 underline dark:text-black decoration-red-500">You pay a medium rate (85%)</span> on the middle part</li>
@@ -187,8 +187,8 @@
                         This tax can often more than double the price of the car compared to what you'd pay in a country like Germany.
                     </p>
 
-                    <div class="bg-green-50 dark:bg-green-100 border border-green-200 p-3 rounded-lg">
-                        <p class="text-green-800 dark:text-green-900">
+                    <div class="bg-green-100 dark:bg-green-100 border border-green-200 p-3 rounded-lg">
+                        <p class="text-green-900 dark:text-green-900">
                             <span class="font-bold">Good to know:</span> Electric cars get a significant tax discount, making them much more attractive and relatively cheaper than gasoline or diesel cars.
                         </p>
                     </div>
@@ -201,7 +201,7 @@
                     </p>
 
                     <div class="bg-gray-50 dark:bg-gray-100 p-3 rounded-lg">
-                        <p class="font-semibold text-gray-800 dark:text-gray-900 mb-2">What it's based on:</p>
+                        <p class="font-semibold text-gray-900 dark:text-gray-900 mb-2">What it's based on:</p>
                         <ul class="list-disc list-inside space-y-1 text-gray-600 dark:text-neutral-700">
                             <li><span class="font-bold text-gray-900 underline dark:text-black decoration-green-500">For older cars:</span> based on fuel efficiency (km per liter). The further it goes on a liter, the cheaper the tax</li>
                             <li><span class="font-bold text-gray-900 underline dark:text-black decoration-green-300">For newer cars </span>(registered after July 2021): based directly on CO2 emissions (grams per km). The lower the emissions, the cheaper the tax</li>
@@ -210,7 +210,7 @@
                 </div>
 
 
-        <!-- Car Insurance --> <hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700">
+        <!-- Car Insurance --> <hr class="h-px my-8 bg-gray-700 border-0">
             <h3 class="text-xl font-bold mb-3 text-neutral-800 dark:text-neutral-900 flex items-center">
                 3. Car Insurance (Forsikring) explained.
             </h3>
@@ -220,28 +220,28 @@
 
             <div class="space-y-4">
 
-                    <h4 class="font-bold text-gray-900 underline dark:text-black decoration-indigo-500">Mandatory Liability Insurance (Ansvarsforsikring)</h4>
+                    <h4 class="font-bold text-black underline dark:text-black decoration-indigo-500">Mandatory Liability Insurance (Ansvarsforsikring)</h4>
                     <p class="text-gray-600 dark:text-neutral-700 leading-relaxed">
                         This is the legal minimum. It covers any damage you might cause to other people or their property. You absolutely must have this.
                     </p>
 
 
 
-                <h4 class="font-bold text-gray-900 underline dark:text-black decoration-indigo-500">Comprehensive Insurance (Kaskoforsikring)</h4>
+                <h4 class="font-bold text-black underline dark:text-black decoration-indigo-500">Comprehensive Insurance (Kaskoforsikring)</h4>
                     <p class="text-gray-600 dark:text-neutral-700 leading-relaxed">
                         This is optional, but highly recommended, especially for newer or more valuable cars. It covers theft and damage to your own car if you get into an accident. Most people get this.
                     </p>
 
 
-                <div class="bg-yellow-50 dark:bg-yellow-100 border border-yellow-200 p-3 rounded-lg">
-                    <p class="text-yellow-800 dark:text-yellow-900">
+                <div class="bg-yellow-100 dark:bg-yellow-100 border border-yellow-300 p-3 rounded-lg">
+                    <p class="text-yellow-900 dark:text-yellow-900">
                         <span class="font-bold">Cost:</span> The price varies wildly based on your age, driving experience, the car model (a fast car costs more to insure), and where you live. New and young drivers often pay a very high premium. It's always a good idea to get quotes from several different insurance companies.
                     </p>
                 </div>
             </div>
 
 
-        <!-- The Process --><hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700">
+        <!-- The Process --> <hr class="h-px my-8 bg-gray-700 border-0">
 
             <h3 class="text-xl font-bold mb-3 text-neutral-800 dark:text-neutral-900">
                 The Process of Getting a Car in a nutshell
@@ -252,26 +252,26 @@
 
             <div class="space-y-4">
 
-                <h4 class="font-bold text-gray-900 underline dark:text-black decoration-indigo-500">1. Buying a Car in Denmark</h4>
+                <h4 class="font-bold text-black underline dark:text-black decoration-indigo-500">1. Buying a Car in Denmark</h4>
                     <p class="text-gray-600 dark:text-neutral-700 leading-relaxed mb-3">
                         This is the simplest way. You go to a dealer or find a used car online (on sites like bilbasen.dk or biltorvet.dk), agree on a price, handle the ownership registration digitally with your MitID, get insurance, and you're done.
                     </p>
 
-                    <div class="bg-blue-50 dark:bg-blue-100 border border-blue-200 p-3 rounded-lg">
-                        <p class="text-blue-800 dark:text-blue-900">
+                    <div class="bg-blue-100 dark:bg-blue-100 border border-blue-200 p-3 rounded-lg">
+                        <p class="text-blue-900 dark:text-blue-900">
                             <span class="font-bold">Pro-tip:</span> When buying a used car, always check for outstanding debt (gæld) on the car through the official registry (Bilbogen). If you buy a car with debt, you become responsible for it!
                         </p>
                     </div>
 
 
 
-                <h4 class="font-bold text-gray-900 underline dark:text-black decoration-indigo-500">2. Importing a Car from Abroad</h4>
+                <h4 class="font-bold text-black underline dark:text-black decoration-indigo-500">2. Importing a Car from Abroad</h4>
                     <p class="text-gray-600 dark:text-neutral-700 leading-relaxed mb-3">
                         This is more complicated but can save you money if you find a good deal abroad (even after the tax).
                     </p>
 
                     <div class="bg-gray-50 dark:bg-gray-100 p-3 rounded-lg">
-                        <ol class="list-decimal list-inside space-y-1 text-gray-600 dark:text-neutral-700">
+                        <ol class="list-decimal list-inside space-y-1 text-neutral-700 dark:text-neutral-700">
                             <li>Bring the car to Denmark</li>
                             <li>Take it for a mandatory inspection (syn)</li>
                             <li>Report it to the Motor Registry (Motorstyrelsen) for a valuation</li>
@@ -287,34 +287,34 @@
 
     <div class="bg-white rounded-2xl shadow p-6 mb-10 dark:bg-neutral-100" id="bike">
         <h2 class="text-2xl font-bold mb-3 text-neutral-800 dark:text-neutral-900">Bike</h2>
-        <p class="text-gray-600 dark:text-neutral-700 leading-relaxed">
+        <p class="text-neutral-700 dark:text-neutral-700 leading-relaxed">
             <strong>Biking is one of the best ways to move around the city. </strong> Horsens has a well-developed network of bike lanes, making it safe and convenient for cyclists. You can easily rent bikes through various apps or buy a second-hand one from local Facebook marketplace.
         </p>
-        <p class="text-gray-600 dark:text-neutral-700 leading-relaxed mt-2 pb-4">
+        <p class="text-neutral-700 dark:text-neutral-700 leading-relaxed mt-2 pb-4">
             If you plan to bike regularly, consider investing in a good quality bike lock just to be sure it won't get stolen.
         </p>
         <h3 class="text-xl font-bold mb-3 text-neutral-800 dark:text-neutral-900">What to keep in mind: </h3>
 
-        <ol class="list-decimal list-inside space-y-1 text-gray-600 dark:text-neutral-700">
-            <li><span class="font-bold text-gray-900 underline dark:text-black decoration-indigo-500">Buy the front and back lights and thank me later.</span>  You can get a fine up to <strong>1000DKK</strong> from police if you don't have them.</li>
+        <ol class="list-decimal list-inside space-y-1 text-neutral-700 dark:text-neutral-700">
+            <li><span class="font-bold text-neutral-800 underline dark:text-black decoration-indigo-500">Buy the front and back lights and thank me later.</span>  You can get a fine up to <strong>1000DKK</strong> from police if you don't have them.</li>
             <li>You don't need a safety helmet.</li>
             <li>Repairing a flat tire or other similar stuff costs around 80-200DKK</li>
-            <li><span class="font-bold text-gray-900 underline dark:text-black decoration-indigo-500"> Kamtjatka dormitory sometimes gives away free bikes which got abandoned.</span> </li>
+            <li><span class="font-bold text-neutral-800 underline dark:text-black decoration-indigo-500"> Kamtjatka dormitory sometimes gives away free bikes which got abandoned.</span> </li>
             <li>If you get your bike stolen, I've got bad news. The chance to get it back is really low, <strong>so its better to have it insured.</strong></li>
         </ol>
     </div>
 
     <div class="bg-white rounded-2xl shadow p-6 mb-10 dark:bg-neutral-100" id="scooter">
         <h2 class="text-2xl font-bold mb-3 text-neutral-800 dark:text-neutral-900">E-scooter</h2>
-        <p class="text-gray-600 dark:text-neutral-700 leading-relaxed">
+        <p class="text-neutral-700 dark:text-neutral-700 leading-relaxed">
             <strong>E-scooters are fastest and most convenient way to get around the city.</strong> They are easy to use and can be a used as main way to commute to work.
         </p>
-        <p class="text-gray-600 dark:text-neutral-700 leading-relaxed mt-2 pb-4">
+        <p class="text-neutral-700 dark:text-neutral-700 leading-relaxed mt-2 pb-4">
             Just remember to follow the local traffic rules and park them responsibly to avoid fines.
         </p>
         <h3 class="text-xl font-bold mb-3 text-neutral-800 dark:text-neutral-900">What to keep in mind: </h3>
-        <ol class="list-decimal list-inside space-y-1 text-gray-600 dark:text-neutral-700">
-            <li><span class="font-bold text-gray-900 underline dark:text-black decoration-indigo-500">You need to be 15 years old to use them.</span> If you are younger, you can use them only with an adult.</li>
+        <ol class="list-decimal list-inside space-y-1 text-neutral-700 dark:text-neutral-700">
+            <li><span class="font-bold text-neutral-800 underline dark:text-black decoration-indigo-500">You need to be 15 years old to use them.</span> If you are younger, you can use them only with an adult.</li>
             <li><span class="font-bold text-gray-900 underline dark:text-black decoration-indigo-500">Always wear a helmet.</span><strong> You will get fined 1000DKK </strong> if you don't wear it on e-scooter.</li>
             <li>Follow the local traffic rules and regulations.</li>
             <li>Park them responsibly to avoid fines.</li>
