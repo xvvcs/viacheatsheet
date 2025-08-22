@@ -255,7 +255,7 @@
                     <h4 class="font-semibold text-red-400 dark:text-red-400 mb-2">⚠️ Important limitations:</h4>
                     <ul class="list-disc list-inside space-y-2 text-gray-300 dark:text-gray-300 mb-4">
                         <li><strong>Earning vs. Holiday year:</strong> Money earned May 1st - April 30th can only be used the following May 1st - April 30th</li>
-                        <li><strong>Employer coordination:</strong> Must be approved by your employer before taking paid holiday. Though, never had a case when I we had to do so.</li>
+                        <li><strong>Employer coordination:</strong> Must be approved by your employer before taking paid holiday. Though, never had a case when we had to do so.</li>
                         <li><strong>Limited early withdrawal:</strong> Only in specific situations (unemployment, leaving Denmark, etc.), so you chill.</li>
                         <li><strong>Tax implications:</strong> Feriepenge is taxed when paid out, not when earned. Don't be surprised you got less when you receive it.</li>
                     </ul>
