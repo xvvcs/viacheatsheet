@@ -48,6 +48,16 @@ Route::get('/lifestyle', function (){
     return view('lifestyle');
 });
 
+// about page
+Route::get('/about', function (){
+    return view('about');
+});
+
+// licensing page
+Route::get('/licensing', function (){
+    return view('licensing');
+});
+
 // contact page
 Route::get('/contact', function () {
     return view('contact');
