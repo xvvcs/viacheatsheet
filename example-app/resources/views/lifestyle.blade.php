@@ -5,7 +5,7 @@
     <x-slot:heading>Sports</x-slot:heading>
 
         <!-- Sports -->
-    <div class="bg-white rounded-2xl shadow p-6 mb-10 dark:bg-neutral-100" id="siri">
+    <div class="bg-white rounded-2xl shadow p-6 mb-10 dark:bg-neutral-100" id="sports">
         <h2 class="text-2xl font-bold mb-3 text-neutral-900">Sports</h2>
         <p class="text-neutral-700 leading-relaxed">
             Horsens is known for its vibrant sports scene, featuring clubs like AC Horsens, which competes in Danish football leagues. The city also supports handball, basketball, and cycling, with facilities and local teams for enthusiasts. Famous clubs such as Horsens IC (basketball) and Horsens Håndboldklub (handball) contribute to the city's active lifestyle and community spirit.
