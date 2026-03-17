@@ -1,0 +1,21 @@
+{
+  "buildCommand": "composer install --no-dev --optimize-autoloader",
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/api/index.php"
+    }
+  ],
+  "functions": {
+    "api/index.php": {
+      "runtime": "vercel-php@0.7.2"
+    }
+  },
+  "env": {
+    "CACHE_DRIVER": "array",
+    "SESSION_DRIVER": "array",
+    "LOG_CHANNEL": "stderr",
+    "APP_ENV": "production",
+    "APP_DEBUG": "false"
+  }
+}
